@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:24 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/02 18:02:57 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/04 17:12:42 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,15 +61,3 @@ int	ft_printf(const char *fmt, ...)
 	va_end(listp);
 	return (count);
 }
-
-// int	main(void)
-// {	
-// 	int i = printf("print %% %c, %s, %d, %i, %u, %x, %X, %p\n", 'c', "azerty", 42, -42, 42, 42, 42, 42);
-// 	int j = ft_printf("print %% %c, %s, %d, %i, %u, %x, %X, %p\n", 'c', "azerty", 42, -42, 42, 42, 42, 42);
-// 	// int i = printf(" %lp %lp \n", LONG_MIN, LONG_MAX);
-// 	// int j = ft_printf(" %p %p \n", LONG_MIN, LONG_MAX);
-// 	// printf("\nprintf %d\nft_printf %d\n", i, j);
-// 	// int i = printf(" % s \n", "-");
-// 	// int j = ft_printf(" % s \n", "-");
-// 	printf("\nprintf %d\nft_printf %d\n", i, j);
-// }

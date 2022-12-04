@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:45 by mgama             #+#    #+#             */
-/*   Updated: 2022/11/29 20:32:39 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/04 17:06:18 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -137,4 +137,4 @@ char	*ft_put_base(unsigned long long ull_save, int base,
 			char *rtn, int count);
 char	*ft_convert_base(unsigned long long ull, int base);
 
-#endif
+#endif /* ft_printf_h */

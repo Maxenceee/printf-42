@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:45 by mgama             #+#    #+#             */
-/*   Updated: 2022/11/20 23:41:52 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/04 17:08:21 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
 # include <unistd.h>
 # include <stdarg.h>
 # include <limits.h>
+
+# define DIGITS "0123456789abcdef0123456789ABCDEF"
 
 int		ft_printf(const char *fmt, ...);
 void	print_type(const char *fmt, va_list *argp, int *count);
@@ -39,4 +41,4 @@ size_t	ft_strlen(const char *str);
 size_t	ft_nbrsize_l(long int nb);
 size_t	ft_nbrsize_ul(unsigned long int nb);
 
-#endif
+#endif /* ft_printf_h */

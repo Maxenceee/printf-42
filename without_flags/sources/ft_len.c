@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/05 21:23:53 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/02 18:02:50 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/04 17:07:33 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ size_t	ft_strlen(const char *str)
 size_t	ft_nbrsize_l(long int nb)
 {
 	size_t	i;
-	int	div;
+	int		div;
 
 	i = 0;
 	div = 1;
@@ -43,7 +43,7 @@ size_t	ft_nbrsize_l(long int nb)
 size_t	ft_nbrsize_ul(unsigned long int nb)
 {
 	size_t	i;
-	int	div;
+	int		div;
 
 	i = 0;
 	div = 1;
