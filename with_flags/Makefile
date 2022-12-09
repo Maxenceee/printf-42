@@ -24,7 +24,7 @@ SRCS			=	sources/ft_calloc.c \
 					
 OBJS			=	$(SRCS:.c=.o)
 
-HEADER_DIR		=	includes/ft_printf.h
+HEADER_DIR		=	includes/
 CC				=	gcc
 RM				=	rm -f
 LIBC			=	ar rcs
