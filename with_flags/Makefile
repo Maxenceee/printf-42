@@ -40,6 +40,8 @@ all:			$(NAME)
 $(NAME):		$(OBJS) 
 				$(LIBC) $(NAME) $(OBJS)
 
+bonus: all
+
 clean:
 				$(RM) $(OBJS) $(BONUS_OBJS)
 
