@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_convert_base.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgama <mgama@student.42.fr>                +#+  +:+       +#+        */
+/*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:39:03 by mgama             #+#    #+#             */
-/*   Updated: 2022/11/21 14:41:33 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/09 17:17:53 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
 
-char	*ft_put_base(unsigned long long ull_save, int base,
+static char	*ft_put_base(unsigned long long ull_save, int base,
 char *rtn, int count)
 {
 	while (ull_save != 0)

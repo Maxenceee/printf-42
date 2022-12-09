@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_string.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgama <mgama@student.42.fr>                +#+  +:+       +#+        */
+/*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 20:07:51 by mgama             #+#    #+#             */
-/*   Updated: 2022/11/21 14:41:57 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/09 17:25:31 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
+#include "../includes/ft_flags.h"
 
 void	ft_putstrprec(char *str, int prec, int *count)
 {
@@ -22,7 +23,7 @@ void	ft_putstrprec(char *str, int prec, int *count)
 	(*count) += c;
 }
 
-void	ft_print_spaces(char *str, int *count, t_flags flags)
+static void	ft_print_spaces(char *str, int *count, t_flags flags)
 {
 	if (flags.dot >= 0)
 	{

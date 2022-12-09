@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_flags.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgama <mgama@student.42.fr>                +#+  +:+       +#+        */
+/*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 22:47:14 by mgama             #+#    #+#             */
-/*   Updated: 2022/11/21 14:41:35 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/09 17:19:43 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
+#include "../includes/ft_flags.h"
 
 void	ft_check_flags(const char *fmt, va_list *argp, t_flags *flags, int *idx)
 {

@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_flags2.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgama <mgama@student.42.fr>                +#+  +:+       +#+        */
+/*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/21 12:33:45 by mgama             #+#    #+#             */
-/*   Updated: 2022/11/21 14:41:36 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/09 17:19:47 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
+#include "../includes/ft_flags.h"
 
 void	ft_minus_flag(t_flags *flags)
 {

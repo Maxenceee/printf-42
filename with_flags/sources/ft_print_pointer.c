@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_pointer.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgama <mgama@student.42.fr>                +#+  +:+       +#+        */
+/*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:47:22 by mgama             #+#    #+#             */
-/*   Updated: 2022/11/21 14:41:55 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/09 17:25:33 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
+#include "../includes/ft_flags.h"
 
-void	ft_print_in_pointer_spaces(char *pointer, int *count, t_flags flags)
+static void	ft_print_in_pointer_spaces(char *pointer, int *count, t_flags flags)
 {
 	ft_putstrprec("0x", 2, count);
 	if (flags.dot >= 0)

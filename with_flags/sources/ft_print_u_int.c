@@ -3,23 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_u_int.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgama <mgama@student.42.fr>                +#+  +:+       +#+        */
+/*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:08:39 by mgama             #+#    #+#             */
-/*   Updated: 2022/11/21 14:42:02 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/09 17:25:28 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
+#include "../includes/ft_flags.h"
 
-void	ft_print_in_u_int_spaces(char *unsi_int, int *count, t_flags flags)
+static void	ft_print_in_u_int_spaces(char *unsi_int, int *count, t_flags flags)
 {
 	if (flags.dot >= 0)
 		ft_print_width(flags.dot - 1, ft_strlen(unsi_int) - 1, 1, count);
 	ft_putstrprec(unsi_int, ft_strlen(unsi_int), count);
 }
 
-void	ft_print_u_int_spaces(char *unsi_int, int *count, t_flags flags)
+static void	ft_print_u_int_spaces(char *unsi_int, int *count, t_flags flags)
 {
 	if (flags.minus == 1)
 		ft_print_in_u_int_spaces(unsi_int, count, flags);

@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_float.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgama <mgama@student.42.fr>                +#+  +:+       +#+        */
+/*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 16:44:18 by mgama             #+#    #+#             */
-/*   Updated: 2022/11/29 20:41:53 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/09 17:25:40 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
+#include "../includes/ft_flags.h"
 
-size_t	ft_strlen_floating_part(const char *str)
+static size_t	ft_strlen_floating_part(const char *str)
 {
 	size_t	count;
 	int		counting;
@@ -30,7 +31,7 @@ size_t	ft_strlen_floating_part(const char *str)
 	return (count);
 }
 
-void	ft_print_in_float_spaces(char *d_i, double save_f,
+static void	ft_print_in_float_spaces(char *d_i, double save_f,
 	int *count, t_flags flags)
 {
 	if (save_f < 0 && flags.plus == 0 && flags.dot >= 0)
@@ -40,7 +41,7 @@ void	ft_print_in_float_spaces(char *d_i, double save_f,
 		ft_print_width(flags.dot, ft_strlen_floating_part(d_i) - 1, 1, count);
 }
 
-void	ft_print_float_spaces(char *d_i, double save_f,
+static void	ft_print_float_spaces(char *d_i, double save_f,
 	int *count, t_flags flags)
 {
 	if (flags.minus == 1)
@@ -58,7 +59,7 @@ void	ft_print_float_spaces(char *d_i, double save_f,
 		ft_print_in_float_spaces(d_i, save_f, count, flags);
 }
 
-void	ft_print_float_flags(t_flags *flags, double *li, int *count)
+static void	ft_print_float_flags(t_flags *flags, double *li, int *count)
 {
 	if (*li < 0 && (flags->dot >= 0 || flags->zero == 1))
 	{

@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mgama <mgama@student.42.fr>                +#+  +:+       +#+        */
+/*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:24 by mgama             #+#    #+#             */
-/*   Updated: 2022/11/30 16:48:22 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/09 17:25:22 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "../includes/ft_flags.h"
 #include "../includes/ft_printf.h"
 
-t_flags	ft_flags(void)
+static t_flags	ft_flags(void)
 {
 	t_flags		flags;
 
@@ -28,7 +29,7 @@ t_flags	ft_flags(void)
 	return (flags);
 }
 
-void	ft_switch_types(int type, va_list *argp, int *count, t_flags flags)
+static void	ft_switch_types(int type, va_list *argp, int *count, t_flags flags)
 {
 	if (type == '%')
 		ft_putchar_c('%', count);
@@ -50,7 +51,7 @@ void	ft_switch_types(int type, va_list *argp, int *count, t_flags flags)
 		ft_print_pointer(va_arg(*argp, unsigned long int), count, flags);
 }
 
-void	print_type(const char *fmt, va_list *argp, int *count)
+static void	ft_print_type(const char *fmt, va_list *argp, int *count)
 {
 	int		i;
 	t_flags	flags;
@@ -81,7 +82,7 @@ int	ft_printf(const char *fmt, ...)
 
 	count = 0;
 	va_start(listp, fmt);
-	print_type(fmt, &listp, &count);
+	ft_print_type(fmt, &listp, &count);
 	va_end(listp);
 	return (count);
 }
