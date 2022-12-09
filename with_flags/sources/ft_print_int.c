@@ -6,14 +6,15 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 20:17:43 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/09 17:25:35 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/09 18:16:02 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
 #include "../includes/ft_flags.h"
 
-static void	ft_print_in_int_spaces(char *d_i, int save_i, int *count, t_flags flags)
+static void	ft_print_in_int_spaces(char *d_i, int save_i,
+	int *count, t_flags flags)
 {
 	if (save_i < 0 && flags.plus == 0 && flags.dot >= 0)
 		ft_putchar_c('-', count);
@@ -22,7 +23,8 @@ static void	ft_print_in_int_spaces(char *d_i, int save_i, int *count, t_flags fl
 	ft_putstrprec(d_i, ft_strlen(d_i), count);
 }
 
-static void	ft_print_int_spaces(char *d_i, int save_i, int *count, t_flags flags)
+static void	ft_print_int_spaces(char *d_i, int save_i,
+	int *count, t_flags flags)
 {
 	if (flags.minus == 1)
 		ft_print_in_int_spaces(d_i, save_i, count, flags);

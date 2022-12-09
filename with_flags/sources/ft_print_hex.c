@@ -6,14 +6,15 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:26:50 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/09 17:25:38 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/09 18:16:16 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
 #include "../includes/ft_flags.h"
 
-static void	ft_print_in_hex_spaces(char *hexa, int lower, int *count, t_flags flags)
+static void	ft_print_in_hex_spaces(char *hexa, int lower,
+	int *count, t_flags flags)
 {
 	if (flags.hex == 1)
 	{
@@ -27,7 +28,8 @@ static void	ft_print_in_hex_spaces(char *hexa, int lower, int *count, t_flags fl
 	ft_putstrprec(hexa, ft_strlen(hexa), count);
 }
 
-static void	ft_print_hex_spaces(char *hexa, int lower, int *count, t_flags flags)
+static void	ft_print_hex_spaces(char *hexa, int lower,
+	int *count, t_flags flags)
 {
 	if (flags.minus == 1)
 		ft_print_in_hex_spaces(hexa, lower, count, flags);
