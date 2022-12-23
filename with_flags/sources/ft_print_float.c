@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 16:44:18 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/09 17:25:40 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/15 16:09:02 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,11 +34,11 @@ static size_t	ft_strlen_floating_part(const char *str)
 static void	ft_print_in_float_spaces(char *d_i, double save_f,
 	int *count, t_flags flags)
 {
-	if (save_f < 0 && flags.plus == 0 && flags.dot >= 0)
+	if (save_f < 0 && flags.dot >= 0)
 		ft_putchar_c('-', count);
 	ft_putstrprec(d_i, ft_strlen(d_i), count);
 	if (flags.dot >= 0)
-		ft_print_width(flags.dot, ft_strlen_floating_part(d_i) - 1, 1, count);
+		ft_print_max_width(flags.dot, (int)ft_strlen_floating_part(d_i) - 1, 1, count);
 }
 
 static void	ft_print_float_spaces(char *d_i, double save_f,
