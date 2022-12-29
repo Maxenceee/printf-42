@@ -1,26 +1,30 @@
-SRCS			=	sources/ft_calloc.c \
-					sources/ft_flags.c \
-					sources/ft_isdigit.c \
-					sources/ft_len.c \
-					sources/ft_print_hex.c \
-					sources/ft_print_pointer.c \
-					sources/ft_print_u_int.c \
-					sources/ft_printf.c \
-					sources/ft_tolower.c \
-					sources/ft_valids.c	\
-					sources/ft_strjoin.c \
+SRCS			=	sources/ft_bzero.c \
+					sources/ft_calloc.c \
 					sources/ft_convert_base.c \
+					sources/ft_flags.c \
 					sources/ft_flags2.c \
-					sources/ft_itoa.c \
-					sources/ft_print_char.c \
-					sources/ft_print_int.c \
-					sources/ft_print_string.c \
-					sources/ft_print_width.c \
-					sources/ft_strdup.c \
-					sources/ft_u_itoa.c \
 					sources/ft_ftoa.c \
+					sources/ft_isdigit.c \
+					sources/ft_itoa.c \
+					sources/ft_len.c \
+					sources/ft_memset.c \
+					sources/ft_pow.c \
+					sources/ft_print_char.c \
 					sources/ft_print_float.c \
-					sources/ft_strlcat.c
+					sources/ft_print_hex.c \
+					sources/ft_print_int.c \
+					sources/ft_print_pointer.c \
+					sources/ft_print_string.c \
+					sources/ft_print_u_int.c \
+					sources/ft_print_width.c \
+					sources/ft_printf.c \
+					sources/ft_strcat.c \
+					sources/ft_strdup.c \
+					sources/ft_strjoin.c \
+					sources/ft_strlcat.c \
+					sources/ft_tolower.c \
+					sources/ft_u_itoa.c \
+					sources/ft_valids.c
 					
 OBJS			=	$(SRCS:.c=.o)
 
@@ -37,10 +41,13 @@ NAME			=	libftprintf.a
 
 all:			$(NAME)
 
-$(NAME):		$(OBJS) 
+$(NAME):		$(OBJS)
 				$(LIBC) $(NAME) $(OBJS)
 
 bonus: all
+
+m:				$(OBJS)
+				$(CC) $(OBJS) -I $(HEADER_DIR)
 
 clean:
 				$(RM) $(OBJS) $(BONUS_OBJS)
