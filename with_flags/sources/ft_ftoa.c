@@ -6,24 +6,76 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 16:45:47 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/29 16:01:08 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/30 00:47:10 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
 
+// char	*ft_ftoa(double x, int max)
+// {
+// 	int		n;
+// 	int		i;
+// 	int		k;
+// 	char	*p;
+// 	char	*tmp;
+// 	i = 0;
+// 	k = 0;
+// 	p = ft_calloc(20, sizeof(char));
+// 	if (!p)
+// 		return (0);
+// 	if (x < 0)
+// 	{
+// 		x = -x;
+// 		p[i] = '-';
+// 		i++;
+// 		k++;
+// 	}
+// 	n = (int)x;
+// 	tmp = ft_itoa(n);
+// 	ft_strlcat(p, tmp, 20);
+// 	free(tmp);
+// 	if (n == 0)
+// 	{
+// 		k++;
+// 		i++;
+// 	}
+// 	while (n > 0)
+// 	{
+// 		x /= 10;
+// 		n = (int)x;
+// 		i++;
+// 	}
+// 	*(p + i) = '.';
+//  	x *= 10;
+//  	n = (int)x;
+//  	x = x - n;
+//  	while (((n > 0) || (i > k)) && max > 0)
+//  	{
+//  		if (k == i)
+//  			k++;
+// 		*(p + k) = '0' + n;
+// 		x *= 10;
+// 		n = (int)x;
+// 		x = x - n;
+// 		k++;
+// 		max--;
+// 	}
+// 	*(p + k) = '\0';
+// 	return (p);
+// }
+
 char	*ft_ftoa(double n, int afterpoint)
 {
-	int		ipart;
-	double	fpart;
-	char	*res;
-	char	temp;
-	int		i;
-	int		j;
-	int		k;
-	int		to_int;
-	char	str[10];
-	int		is_negative;
+	int					ipart;
+	double				fpart;
+	char				*res;
+	char				temp;
+	int					i;
+	int					k;
+	long long int		to_int;
+	char				str[30];
+	int					is_negative;
 
 	// Extract integer part
 	ipart = (int)n;
@@ -58,14 +110,14 @@ char	*ft_ftoa(double n, int afterpoint)
 		res[i++] = '-';
 	}
 	// Reverse the result string
-	j = 0;
 	k = i - 1;
-	while (j < k)
+	i = 0;
+	while (i < k)
 	{
-		temp = res[j];
-		res[j] = res[k];
+		temp = res[i];
+		res[i] = res[k];
 		res[k] = temp;
-		j++;
+		i++;
 		k--;
 	}
 	// Check for display option after point
@@ -77,24 +129,33 @@ char	*ft_ftoa(double n, int afterpoint)
 		// of points after dot. The third parameter is needed
 		// to handle cases like 233.007
 		fpart = fpart * ft_pow(10, afterpoint);
-		to_int = (int)fpart;
-		ft_memset(str, 0, 10); // Initialize the fraction string to all zeros
+		to_int = (long long int)fpart;
+		ft_memset(str, 0, 30); // Initialize the fraction string to all zeros
 		i = 0;
+		// If to_int can't fit in long long int cast reduce it until it can
+		if (to_int < 0)
+			while (to_int < 0)
+			{
+				fpart /= 10;
+				str[i++] = '0';
+				to_int = (long long int)fpart;
+			}
 		// Convert the fraction part to a string by repeatedly multiplying by 10 and adding the integer part to the result string
 		while (to_int > 0 || i < afterpoint)
 		{
-			str[i++] = (to_int % 10) + '0';
+			str[i] = (to_int % 10) + '0';
 			to_int /= 10;
+			i++;
 		}
 		// Reverse the fraction string
-		j = 0;
 		k = i - 1;
-		while (j < k)
+		i = 0;
+		while (i < k)
 		{
-			temp = str[j];
-			str[j] = str[k];
+			temp = str[i];
+			str[i] = str[k];
 			str[k] = temp;
-			j++;
+			i++;
 			k--;
 		}
 		ft_strcat(res, str);

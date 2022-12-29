@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 16:44:18 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/29 15:51:08 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/30 00:52:01 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ static void	ft_print_float_spaces(char *d_i, double save_f,
 	if (flags.dot >= 0)
 	{
 		flags.width -= flags.dot;
-		ft_print_width(flags.width, 0, 0, count);
+		ft_print_width(flags.width, 0, flags.zero, count);
 	}
 	else
 		ft_print_width(flags.width, ft_strlen(d_i), flags.zero, count);

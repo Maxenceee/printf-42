@@ -1,31 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_recursive_power.c                               :+:      :+:    :+:   */
+/*   ft_pow.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/08 14:56:46 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/29 15:33:43 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/30 00:24:18 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
 
-int	ft_pow(int nb, int power)
+double	ft_pow(double x, double y)
 {
-	int	d;
+    double	result;
+	int		i;
 
-	d = 1;
-	if (power == 0)
-	{
-		return (1);
-	}
-	if (power < 0)
-	{
-		return (0);
-	}
-	d *= nb;
-	power--;
-	return (d * ft_pow(nb, power));
+	result = 1.0;
+	i = 0;
+    while (i++ < y)
+        result *= x;
+    return (result);
 }

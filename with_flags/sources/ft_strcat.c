@@ -6,24 +6,11 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/04 19:13:52 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/29 15:15:42 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/30 00:03:54 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
-
-// static int	ft_strlen(char	*str)
-// {
-// 	int	count;
-
-// 	count = 0;
-// 	while (*str != '\0')
-// 	{
-// 		str++;
-// 		count++;
-// 	}
-// 	return (count);
-// }
 
 char	*ft_strcpy(char *dest, char *src)
 {
