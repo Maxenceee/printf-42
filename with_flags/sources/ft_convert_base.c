@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:39:03 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/09 17:17:53 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/30 01:08:20 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ char	*ft_convert_base(unsigned long long ull, int base)
 	}
 	rtn = malloc(sizeof(char) * (count + 1));
 	if (!rtn)
-		return (0);
+		return (NULL);
 	rtn[count] = '\0';
 	rtn = ft_put_base(ull_save, base, rtn, count);
 	return (rtn);

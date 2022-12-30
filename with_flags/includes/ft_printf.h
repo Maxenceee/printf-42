@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:45 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/30 00:54:14 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/30 01:12:16 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,9 +88,6 @@ char	*ft_ftoa(double x, int max);
 
 /* strdup */
 char	*ft_strdup(const char *src);
-
-/* strjoin */
-char	*ft_strjoin(char const *s1, char const *s2);
 
 /* strlcat */
 int		ft_strlcat(char *dest, char *src, unsigned int size);

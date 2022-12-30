@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:47:22 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/09 17:25:33 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/30 01:09:15 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,8 @@ void	ft_print_pointer(unsigned long long ull, int *count, t_flags flags)
 		return ;
 	}
 	pointer = ft_convert_base(ull, 16);
+	if (!pointer)
+		return ;
 	pointer = ft_str_tolower(pointer);
 	if ((size_t)flags.dot < ft_strlen(pointer))
 		flags.dot = ft_strlen(pointer);

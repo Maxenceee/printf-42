@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:26:50 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/09 18:16:16 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/30 01:08:42 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,6 +61,8 @@ void	ft_print_hex(unsigned int ui, int lower, int *count, t_flags flags)
 	if (ui == 0)
 		flags.hex = 0;
 	hexa = ft_convert_base((unsigned long long)ui, 16);
+	if (!hexa)
+		return ;
 	if (lower == 1)
 		hexa = ft_str_tolower(hexa);
 	ft_print_hex_spaces(hexa, lower, count, flags);

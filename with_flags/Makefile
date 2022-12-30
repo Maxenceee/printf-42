@@ -20,7 +20,6 @@ SRCS			=	sources/ft_bzero.c \
 					sources/ft_printf.c \
 					sources/ft_strcat.c \
 					sources/ft_strdup.c \
-					sources/ft_strjoin.c \
 					sources/ft_strlcat.c \
 					sources/ft_tolower.c \
 					sources/ft_u_itoa.c \

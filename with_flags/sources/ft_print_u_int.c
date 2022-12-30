@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:08:39 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/09 17:25:28 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/30 01:09:44 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,8 @@ void	ft_print_u_int(unsigned int unsi, int *count, t_flags flags)
 		return ;
 	}
 	unsi_int = ft_u_itoa(unsi);
+	if (!unsi)
+		return ;
 	ft_print_u_int_spaces(unsi_int, count, flags);
 	free(unsi_int);
 }

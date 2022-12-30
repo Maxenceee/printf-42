@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 16:42:36 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/30 00:04:00 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/30 01:10:22 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strdup(const char *src)
 
 	str = malloc((ft_strlen(src) + 1) * sizeof(char));
 	if (!str)
-		return (0);
+		return (NULL);
 	i = 0;
 	while (src[i] != '\0')
 	{
