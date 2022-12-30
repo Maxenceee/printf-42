@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 16:45:47 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/30 01:00:34 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/30 01:06:32 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,9 +72,7 @@ char	*ft_ftoa(double n, int afterpoint)
 	{
 		// Add dot
 		ft_strcat(res, ".");
-		// Get the value of fraction part upto given no.
-		// of points after dot. The third parameter is needed
-		// to handle cases like 233.007
+		// Get the value of fraction part upto given of points after dot.
 		fpart = fpart * ft_pow(10, afterpoint);
 		to_int = (long long int)fpart;
 		ft_memset(str, 0, 30); // Initialize the fraction string to all zeros
