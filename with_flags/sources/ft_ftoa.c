@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 16:45:47 by mgama             #+#    #+#             */
-/*   Updated: 2022/12/30 01:06:32 by mgama            ###   ########.fr       */
+/*   Updated: 2022/12/30 12:05:56 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,14 +78,11 @@ char	*ft_ftoa(double n, int afterpoint)
 		ft_memset(str, 0, 30); // Initialize the fraction string to all zeros
 		i = 0;
 		// If to_int can't fit in long long int cast, reduce it until it can
-		if (to_int < 0)
+		while (to_int < 0)
 		{
-			while (to_int < 0)
-			{
-				fpart /= 10;
-				str[i++] = '0';
-				to_int = (long long int)fpart;
-			}
+			fpart /= 10;
+			str[i++] = '0';
+			to_int = (long long int)fpart;
 		}
 		// Convert the fraction part to a string by repeatedly multiplying by 10 and adding the integer part to the result string
 		while (to_int > 0 || i < afterpoint)
