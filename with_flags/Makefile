@@ -52,7 +52,7 @@ clean:
 				$(RM) $(OBJS) $(BONUS_OBJS)
 
 fclean:			clean
-				$(RM) $(NAME)
+				$(RM) $(NAME) a.out
 
 re:				fclean $(NAME)
 
