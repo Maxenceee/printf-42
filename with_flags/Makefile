@@ -1,3 +1,5 @@
+OBJ_DIR			=	.objs
+
 SRCS			=	sources/ft_bzero.c \
 					sources/ft_calloc.c \
 					sources/ft_convert_base.c \
@@ -25,7 +27,7 @@ SRCS			=	sources/ft_bzero.c \
 					sources/ft_u_itoa.c \
 					sources/ft_valids.c
 					
-OBJS			=	$(SRCS:.c=.o)
+OBJS			=	$(patsubst sources%.c, $(OBJ_DIR)%.o, $(SRCS))
 
 HEADER_DIR		=	includes/
 CC				=	gcc
@@ -35,18 +37,22 @@ CFLAGS			=	-Wall -Wextra -Werror
 
 NAME			=	libftprintf.a
 
-%.o: %.c $(HEADER_DIR) Makefile
-	$(CC) $(CFLAGS) -c $< -o $@ -I $(HEADER_DIR)
+GREEN			=	\033[1;32m
+BLUE			=	\033[1;34m
+DEFAULT			=	\033[0m
+
+$(OBJ_DIR)/%.o: sources/%.c $(HEADER_DIR) Makefile
+	@mkdir -p $(OBJ_DIR)
+	@echo "$(BLUE)Compiling $<$(DEFAULT)"
+	@$(CC) $(CFLAGS) -c $< -o $@ -I $(HEADER_DIR)
 
 all:			$(NAME)
 
 $(NAME):		$(OBJS)
-				$(LIBC) $(NAME) $(OBJS)
+				@$(LIBC) $(NAME) $(OBJS)
+				@echo "$(GREEN)$(NAME) compiled!$(DEFAULT)"
 
 bonus: all
-
-m:				$(OBJS)
-				$(CC) $(OBJS) -I $(HEADER_DIR)
 
 clean:
 				$(RM) $(OBJS) $(BONUS_OBJS)
