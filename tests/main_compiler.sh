@@ -1,0 +1,1 @@
+gcc ../libftprintf.a main.c
