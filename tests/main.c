@@ -37,12 +37,9 @@ int main(void)
 	printf("len %d\n", ft_printf("%.4s\n", "hello"));
 	printf("len %d\n", printf("%.4s\n", NULL));
 	printf("len %d\n", ft_printf("%.4s\n", NULL));
-
-	printf("len %d\n", printf("%.10p\n", NULL));
-	printf("len %d\n", ft_printf("%.10p\n", NULL));
 	
-	printf("len %d\n", printf("%#.10X\n", NULL));
-	printf("len %d\n", ft_printf("%#.10X\n", NULL));
+	printf("len %d\n", printf("%#.10X\n", 0));
+	printf("len %d\n", ft_printf("%#.10X\n", 0));
 	printf("len %d\n", printf("%#.10X\n", 42));
 	printf("len %d\n", ft_printf("%#.10X\n", 42));
 
