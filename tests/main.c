@@ -61,6 +61,9 @@ int main(void)
 	// printf("len: %d\n", ft_printf("%#.10X\n", 42));
 	// printf("\n");
 
+	printf("%+5d, %+5d, %+5d, %+5d, %+5d, %+5d, %+5d, %+5d\n", 0, 5, -1, -10, 100, -1862, INT_MIN, INT_MAX);
+	ft_printf("%+5d, %+5d, %+5d, %+5d, %+5d, %+5d, %+5d, %+5d\n", 0, 5, -1, -10, 100, -1862, INT_MIN, INT_MAX);
+
 	// printf("len: %d\n", printf("%*x\n", 5, 42));
 	// printf("len: %d\n", ft_printf("%*x\n", 5, 42));
 	// printf("\n");
@@ -68,27 +71,27 @@ int main(void)
 	// printf("len: %d\n", ft_printf("%.*s\n", 4, "hello"));
 	// printf("\n");
 
-	printf("%7.5s\n", "yolo");
-	ft_printf("%7.5s\n", "yolo");
-	printf("\n");
-	printf("%.5s\n", "yolo");
-	ft_printf("%.5s\n", "yolo");
-	printf("\n");
-	printf("%7s\n", "yolo");
-	ft_printf("%7s\n", "yolo");
-	printf("\n");
-	printf("%7.5s\n", "bombastic");
-	ft_printf("%7.5s\n", "bombastic");
-	printf("\n");
-	printf("%.5s\n", "bombastic");
-	ft_printf("%.5s\n", "bombastic");
-	printf("\n");
-	printf("%7s\n", "bombastic");
-	ft_printf("%7s\n", "bombastic");
-	printf("\n");
-	printf("%-7.5s\n", "tubular");
-	ft_printf("%-7.5s\n", "tubular");
-	printf("\n");
+	// printf("%7.5s\n", "yolo");
+	// ft_printf("%7.5s\n", "yolo");
+	// printf("\n");
+	// printf("%.5s\n", "yolo");
+	// ft_printf("%.5s\n", "yolo");
+	// printf("\n");
+	// printf("%7s\n", "yolo");
+	// ft_printf("%7s\n", "yolo");
+	// printf("\n");
+	// printf("%7.5s\n", "bombastic");
+	// ft_printf("%7.5s\n", "bombastic");
+	// printf("\n");
+	// printf("%.5s\n", "bombastic");
+	// ft_printf("%.5s\n", "bombastic");
+	// printf("\n");
+	// printf("%7s\n", "bombastic");
+	// ft_printf("%7s\n", "bombastic");
+	// printf("\n");
+	// printf("%-7.5s\n", "tubular");
+	// ft_printf("%-7.5s\n", "tubular");
+	// printf("\n");
 
 	// printf("% u\n", -1);
 	// ft_printf("% u\n", -1);
