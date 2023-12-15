@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/06 13:59:41 by rchallie          #+#    #+#             */
-/*   Updated: 2023/12/15 14:12:55 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 14:28:16 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,9 @@
 
 static char	*ft_gen(char *rtn, long nbr, int len, int isneg)
 {
-	if (nbr != 0)
-		rtn = malloc(sizeof(char) * (len + 1));
-	else
-		return (rtn = ft_strdup("0"));
+	if (nbr == 0)
+		return (ft_strdup("0"));
+	rtn = malloc(sizeof(char) * (len + 1));
 	if (!rtn)
 		return (NULL);
 	isneg = 0;
