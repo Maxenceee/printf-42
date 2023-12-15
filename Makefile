@@ -7,7 +7,7 @@ SRCS			=	$(MANDATORY_DIR)/sources/ft_len.c \
 					$(MANDATORY_DIR)/sources/ft_put.c \
 					$(MANDATORY_DIR)/sources/ft_puthex.c
 
-OBJS			=	$(patsubst  $(MANDATORY_DIR)/sources/%.c, $(OBJ_DIR)/sources/%.o, $(SRCS))
+OBJS			=	$(patsubst  $(MANDATORY_DIR)/sources/%.c, $(OBJ_DIR)/$(MANDATORY_DIR)/%.o, $(SRCS))
 
 SRCS_BONUS		=	$(BONUS_DIR)/sources/ft_bzero_bonus.c \
 					$(BONUS_DIR)/sources/ft_calloc_bonus.c \
@@ -36,7 +36,7 @@ SRCS_BONUS		=	$(BONUS_DIR)/sources/ft_bzero_bonus.c \
 					$(BONUS_DIR)/sources/ft_u_itoa_bonus.c \
 					$(BONUS_DIR)/sources/ft_valids_bonus.c
 					
-OBJS_BONUS		=	$(patsubst  $(BONUS_DIR)/sources/%.c, $(OBJ_DIR)/sources/%.o, $(SRCS_BONUS))
+OBJS_BONUS		=	$(patsubst  $(BONUS_DIR)/sources/%.c, $(OBJ_DIR)/$(BONUS_DIR)/%.o, $(SRCS_BONUS))
 
 HEADER_DIR		=	$(MANDATORY_DIR)/includes/
 HEADERBONUS_DIR	=	$(BONUS_DIR)/includes/
@@ -56,13 +56,13 @@ DEFAULT			=	\033[0m
 UP				=	"\033[A"
 CUT				=	"\033[K"
 
-$(OBJ_DIR)/sources/%.o: $(MANDATORY_DIR)/sources/%.c $(HEADER_DIR) Makefile
+$(OBJ_DIR)/$(MANDATORY_DIR)/%.o: $(MANDATORY_DIR)/sources/%.c $(HEADER_DIR) Makefile
 	@mkdir -p $(@D)
 	@echo "$(YELLOW)Compiling [$<]$(DEFAULT)"
 	@$(CC) $(CFLAGS) -c $< -o $@ -I $(HEADER_DIR)
 	@printf ${UP}${CUT}
 
-$(OBJ_DIR)/sources/%.o: $(BONUS_DIR)/sources/%.c $(HEADERBONUS_DIR) Makefile
+$(OBJ_DIR)/$(BONUS_DIR)/%.o: $(BONUS_DIR)/sources/%.c $(HEADERBONUS_DIR) Makefile
 	@mkdir -p $(@D)
 	@echo "$(YELLOW)Compiling [$<]$(DEFAULT)"
 	@$(CC) $(CFLAGS) -c $< -o $@ -I $(HEADERBONUS_DIR)
