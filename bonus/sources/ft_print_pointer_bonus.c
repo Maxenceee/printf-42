@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:47:22 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 17:13:05 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 17:35:54 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ void	ft_print_pointer(uint64_t ull, int *count, t_flags flags)
 		flags.dot = len;
 	if (flags.minus == 1)
 		ft_print_in_pointer_spaces(pointer, ull, count, flags);
-	ft_print_width(flags.width, len + (2 * ull > 0), 0, count);
+	ft_print_width(flags.width, len + (2 * (ull > 0)), 0, count);
 	if (flags.minus == 0)
 		ft_print_in_pointer_spaces(pointer, ull, count, flags);
 	free(pointer);

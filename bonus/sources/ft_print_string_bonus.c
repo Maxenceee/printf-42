@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 20:07:51 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 17:07:19 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 17:41:26 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ void	ft_print_str(char *s, int *count, t_flags flags)
 	c = 0;
 	if (!s)
 	{
-		if (!(flags.dot == -1 || flags.dot > 6))
+		if (!(flags.dot == -1 || flags.dot >= 6))
 			return (ft_print_width(flags.width, 0, 0, count));
 		s = "(null)";
 	}
