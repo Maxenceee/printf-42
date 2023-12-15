@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:45 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 01:07:16 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 14:05:04 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,6 +79,7 @@ int		ft_is_valid_flag(int c);
 void	*ft_calloc(size_t count, size_t size);
 
 /* itoa */
+int		get_num_len(int num);
 char	*ft_itoa(long int n);
 
 /* uitoa*/

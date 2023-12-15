@@ -6,28 +6,11 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/06 13:59:41 by rchallie          #+#    #+#             */
-/*   Updated: 2023/12/14 23:51:57 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 14:12:55 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf_bonus.h"
-
-static int	get_num_len(long num)
-{
-	size_t	count;
-
-	count = 0;
-	if (num < 0)
-		num = -num;
-	while (num != 0)
-	{
-		num = num / 10;
-		count++;
-	}
-	if (count == 0)
-		count = 1;
-	return (count);
-}
 
 static char	*ft_gen(char *rtn, long nbr, int len, int isneg)
 {

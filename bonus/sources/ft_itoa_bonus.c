@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 12:38:19 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/14 23:51:57 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 14:04:48 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ static void	ft_strrev(char *str)
 	}
 }
 
-static int	get_num_len(int num)
+int	get_num_len(int num)
 {
 	int	count;
 

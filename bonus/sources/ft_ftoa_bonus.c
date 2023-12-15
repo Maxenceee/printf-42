@@ -6,12 +6,16 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 16:45:47 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 00:37:47 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 14:14:31 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf_bonus.h"
 #include <math.h>
+
+#ifndef FTOA_BUFFER_SIZE
+# define FTOA_BUFFER_SIZE 30
+#endif /* FTOA_BUFFER_SIZE */
 
 /**
  * @brief Convert floating point number to string (original version)
@@ -156,20 +160,20 @@ static void	reverse_string(char *str, int start, int end)
 static char	*convert_fraction(char *res, int i,
 	double fpart, int afterpoint)
 {
-	char			fraction_str[30];
+	char			fraction_str[FTOA_BUFFER_SIZE];
 	long long int	to_int;
 
 	ft_strcat(res, ".");
 	fpart = (fpart * ft_pow(10, afterpoint)) + 0.5;
 	to_int = (long long int)fpart;
-	ft_memset(fraction_str, 0, 30);
-	while (to_int < 0)
+	ft_memset(fraction_str, 0, FTOA_BUFFER_SIZE);
+	while (to_int < 0 && i < FTOA_BUFFER_SIZE)
 	{
 		fpart /= 10;
 		fraction_str[(i)++] = '0';
 		to_int = (long long int)fpart;
 	}
-	while (to_int > 0 || (i) < afterpoint)
+	while ((to_int > 0 || (i) < afterpoint) && i < FTOA_BUFFER_SIZE)
 	{
 		fraction_str[(i)++] = (to_int % 10) + '0';
 		to_int /= 10;
@@ -188,7 +192,7 @@ char	*ft_ftoa(double n, int afterpoint)
 
 	ipart = (int)n;
 	fpart = n - (float)ipart;
-	res = ft_calloc(20, sizeof(char));
+	res = ft_calloc((get_num_len(ipart) + 1), sizeof(char));
 	if (!res)
 		return (NULL);
 	i = 0;
