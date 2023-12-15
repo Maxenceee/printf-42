@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 18:24:34 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 16:50:57 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 17:59:16 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,16 @@ void	ft_puthex(uint32_t n, int capitals, int *count)
 	ft_putnbr_base(n, capitals, count);
 }
 
+#ifdef __APPLE__
+
+void	ft_puthex_p(unsigned long int n, int *count)
+{
+	ft_putstr_fd("0x", STDOUT_FILENO, count);
+	ft_putnbr_base_p(n, 0, count);
+}
+
+#else
+
 void	ft_puthex_p(unsigned long int n, int *count)
 {
 	if (!n)
@@ -46,3 +56,5 @@ void	ft_puthex_p(unsigned long int n, int *count)
 	ft_putstr_fd("0x", STDOUT_FILENO, count);
 	ft_putnbr_base_p(n, 0, count);
 }
+
+#endif /* __APPLE__ */

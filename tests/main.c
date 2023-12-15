@@ -210,10 +210,10 @@ int main(void)
 	// printf("percent 3 %-12%\n");
 	// ft_printf("percent 3 %-12%\n");
 
-	// printf("%p\n", NULL);
-	// ft_printf("%p\n", NULL);
-	// printf("%p\n", NULL);
-	// ft_printf("%p\n", NULL);
+	printf("%p\n", NULL);
+	ft_printf("%p\n", NULL);
+	printf("%p\n", NULL);
+	ft_printf("%p\n", NULL);
 	// printf("%p\n", NULL);
 	// ft_printf("%p\n", NULL);
 	// printf("%15p\n", NULL);
