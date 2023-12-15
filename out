@@ -1,0 +1,239 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                Welcome to Francinette, a 42 tester framework!                ║
+╚═══════════════════════╦══════════════════════════════╦═══════════════════════╝
+                        ║            printf            ║
+                        ╚══════════════════════════════╝
+⠋ Preparing framework⠙ Preparing framework⠹ Preparing framework⠸ Preparing framework⠼ Preparing framework⠴ Preparing framework⠦ Preparing framework⠧ Preparing framework⠇ Preparing framework⠏ Preparing framework⠋ Preparing framework⠙ Preparing framework⠹ Preparing framework⠸ Preparing framework⠼ Preparing framework⠴ Preparing framework⠦ Preparing framework⠧ Preparing framework⠇ Preparing framework⠏ Preparing framework✔ Preparing framework
+⠋ Executing: norminette⠙ Executing: norminette⠹ Executing: norminette⠸ Executing: norminette⠼ Executing: norminette⠴ Executing: norminette⠦ Executing: norminette⠧ Executing: norminette⠇ Executing: norminette⠏ Executing: norminette✖ Executing: norminette
+bonus/sources/ft_len_bonus.c: OK!
+bonus/sources/ft_printf_bonus.c: OK!
+bonus/sources/ft_print_char_bonus.c: OK!
+bonus/sources/ft_strdup_bonus.c: OK!
+bonus/sources/ft_strlcat_bonus.c: OK!
+bonus/sources/ft_print_pointer_bonus.c: OK!
+bonus/sources/ft_itoa_bonus.c: OK!
+bonus/sources/ft_pow_bonus.c: OK!
+bonus/sources/ft_flags_bonus.c: OK!
+bonus/sources/ft_u_itoa_bonus.c: OK!
+bonus/sources/ft_print_string_bonus.c: OK!
+bonus/sources/ft_isdigit_bonus.c: OK!
+bonus/sources/ft_print_float_bonus.c: OK!
+bonus/sources/ft_bzero_bonus.c: OK!
+bonus/sources/ft_print_int_bonus.c: OK!
+bonus/sources/ft_valids_bonus.c: OK!
+bonus/sources/ft_calloc_bonus.c: OK!
+bonus/sources/ft_print_u_int_bonus.c: OK!
+bonus/sources/ft_convert_base_bonus.c: OK!
+bonus/sources/ft_flags2_bonus.c: OK!
+bonus/sources/ft_print_width_bonus.c: OK!
+bonus/sources/ft_strcat_bonus.c: OK!
+bonus/sources/ft_ftoa_bonus.c: OK!
+bonus/sources/ft_tolower_bonus.c: OK!
+bonus/sources/ft_print_hex_bonus.c: OK!
+bonus/sources/ft_strjoin_bonus.c: OK!
+bonus/includes/ft_flags_bonus.h: OK!
+bonus/includes/ft_printf_bonus.h: OK!
+mandatory/sources/ft_len.c: OK!
+mandatory/sources/ft_puthex.c: OK!
+mandatory/sources/ft_printf.c: OK!
+mandatory/sources/ft_put.c: OK!
+mandatory/includes/ft_printf.h: OK!
+tests/main.c: Error!
+Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+Error: SPACE_BEFORE_FUNC    (line:   6, col:   4):	space before function name
+Error: WRONG_SCOPE_COMMENT  (line:   8, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:   9, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  10, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  11, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  12, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  13, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  14, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line:  14, col:   1):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line:  15, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  16, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  17, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  18, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  19, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  20, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  21, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  22, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  23, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  24, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  25, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  26, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  27, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  28, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  29, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  30, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  31, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  32, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  33, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  34, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  35, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  36, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  37, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  38, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  39, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  40, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  41, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  42, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  43, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  44, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  45, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  46, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  47, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  48, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  49, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  50, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  51, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  52, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  53, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  54, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  55, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  56, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line:  56, col:   1):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line:  57, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  58, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  59, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  60, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  61, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  62, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  63, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  64, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  65, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  66, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  67, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  68, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  69, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  70, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  71, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  72, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  73, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  74, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  75, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  76, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  77, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  78, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  79, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  80, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  81, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  82, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  83, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  84, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  85, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  86, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  87, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  88, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  89, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  90, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  91, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  92, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  93, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  94, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  95, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  96, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  97, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  98, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  99, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 100, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 101, col:   1):	Empty line in function
+Error: LINE_TOO_LONG        (line: 102, col:   1):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 102, col:   5):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 102, col:  99):	line too long
+Error: LINE_TOO_LONG        (line: 103, col:   1):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 103, col:   5):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 103, col: 102):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 104, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 105, col:   1):	Empty line in function
+Error: LINE_TOO_LONG        (line: 106, col:   1):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 106, col:   5):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 106, col: 222):	line too long
+Error: LINE_TOO_LONG        (line: 107, col:   1):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 107, col:   5):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 107, col: 225):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 108, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 109, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 110, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 111, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 112, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 113, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 114, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 115, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 116, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 117, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 118, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 119, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 120, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 121, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 122, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 123, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 124, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 125, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 126, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 127, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 128, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 129, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 130, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 131, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 132, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 133, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line: 164, col:   1):	Empty line in function
+Error: BRACE_SHOULD_EOL     (line: 166, col:   1):	Expected newline after brace
+Error: TOO_MANY_LINES       (line: 166, col:   1):	Function has more than 25 lines
+
+⠋ Executing: make fclean bonus⠙ Executing: make fclean bonus⠹ Executing: make fclean bonus⠸ Executing: make fclean bonus⠼ Executing: make fclean bonus⠴ Executing: make fclean bonus⠦ Executing: make fclean bonus⠧ Executing: make fclean bonus⠇ Executing: make fclean bonus⠏ Executing: make fclean bonus⠋ Executing: make fclean bonus⠙ Executing: make fclean bonus⠹ Executing: make fclean bonus⠸ Executing: make fclean bonus⠼ Executing: make fclean bonus⠴ Executing: make fclean bonus⠦ Executing: make fclean bonus✔ Executing: make fclean bonus
+ℹ Running tests: printfTester (https://github.com/Tripouille/printfTester)
+[36m[1;33mCompiling [mandatory/sources/ft_len.c][0m
+[A[K[1;33mCompiling [mandatory/sources/ft_printf.c][0m
+[A[K[1;33mCompiling [mandatory/sources/ft_put.c][0m
+[A[K[1;33mCompiling [mandatory/sources/ft_puthex.c][0m
+[A[K[1;32mlibftprintf.a compiled![0m
+[34m[Mandatory]
+[93mcategory: c[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [0m
+[93mcategory: s[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [0m
+[93mcategory: p[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [0m
+[93mcategory: d[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK [32m29.OK [0m
+[93mcategory: i[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK [32m29.OK [0m
+[93mcategory: u[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK [32m29.OK [0m
+[93mcategory: x[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK [32m29.OK [32m30.OK [32m31.OK [0m
+[93mcategory: X[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK [32m29.OK [32m30.OK [32m31.OK [0m
+[93mcategory: %[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [0m
+[93mcategory: mix[0m
+[32m1.OK [0m
+[36m[1;32mlibftprintf.a compiled![0m
+[35m[Bonus]
+[93mcategory: -[0m
+[37msubcategory: c[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK 
+[37msubcategory: s[0m
+[32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK 
+[37msubcategory: p[0m
+[32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [31m25.KO [32m26.OK [31m27.KO [31m28.KO [32m29.OK 
+[37msubcategory: d[0m
+[32m30.OK [32m31.OK [32m32.OK [32m33.OK [32m34.OK [32m35.OK [32m36.OK [32m37.OK [32m38.OK [32m39.OK [32m40.OK [32m41.OK [32m42.OK [32m43.OK [32m44.OK [32m45.OK [32m46.OK [32m47.OK [32m48.OK [32m49.OK [32m50.OK [32m51.OK [32m52.OK [32m53.OK [32m54.OK [32m55.OK [32m56.OK [32m57.OK [32m58.OK 
+[37msubcategory: i[0m
+[32m59.OK [32m60.OK [32m61.OK [32m62.OK [32m63.OK [32m64.OK [32m65.OK [32m66.OK [32m67.OK [32m68.OK [32m69.OK [32m70.OK [32m71.OK [32m72.OK [32m73.OK [32m74.OK [32m75.OK [32m76.OK [32m77.OK [32m78.OK [32m79.OK [32m80.OK [32m81.OK [32m82.OK [32m83.OK [32m84.OK [32m85.OK [32m86.OK [32m87.OK 
+[37msubcategory: u[0m
+[32m88.OK [32m89.OK [32m90.OK [32m91.OK [32m92.OK [32m93.OK [32m94.OK [32m95.OK [32m96.OK [32m97.OK [32m98.OK [32m99.OK [32m100.OK [32m101.OK [32m102.OK [32m103.OK [32m104.OK [32m105.OK [32m106.OK [32m107.OK [32m108.OK [32m109.OK [32m110.OK [32m111.OK [32m112.OK [32m113.OK [32m114.OK [32m115.OK [32m116.OK 
+[37msubcategory: x[0m
+[32m117.OK [32m118.OK [32m119.OK [32m120.OK [32m121.OK [32m122.OK [32m123.OK [32m124.OK [32m125.OK [32m126.OK [32m127.OK [32m128.OK [32m129.OK [32m130.OK [32m131.OK [32m132.OK [32m133.OK [32m134.OK [32m135.OK [32m136.OK [32m137.OK [32m138.OK [32m139.OK [32m140.OK [32m141.OK [32m142.OK [32m143.OK [32m144.OK [32m145.OK 
+[37msubcategory: X[0m
+[32m146.OK [32m147.OK [32m148.OK [32m149.OK [32m150.OK [32m151.OK [32m152.OK [32m153.OK [32m154.OK [32m155.OK [32m156.OK [32m157.OK [32m158.OK [32m159.OK [32m160.OK [32m161.OK [32m162.OK [32m163.OK [32m164.OK [32m165.OK [32m166.OK [32m167.OK [32m168.OK [32m169.OK [32m170.OK [32m171.OK [32m172.OK [32m173.OK [32m174.OK [0m
+[93mcategory: 0[0m
+[37msubcategory: d[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK 
+[37msubcategory: i[0m
+[32m29.OK [32m30.OK [32m31.OK [32m32.OK [32m33.OK [32m34.OK [32m35.OK [32m36.OK [32m37.OK [32m38.OK [32m39.OK [32m40.OK [32m41.OK [32m42.OK [32m43.OK [32m44.OK [32m45.OK [32m46.OK [32m47.OK [32m48.OK [32m49.OK [32m50.OK [32m51.OK [32m52.OK [32m53.OK [32m54.OK [32m55.OK [32m56.OK [32m57.OK 
+[37msubcategory: u[0m
+[32m58.OK [32m59.OK [32m60.OK [32m61.OK [32m62.OK [32m63.OK [32m64.OK [32m65.OK [32m66.OK [32m67.OK [32m68.OK [32m69.OK [32m70.OK [32m71.OK [32m72.OK [32m73.OK [32m74.OK [32m75.OK [32m76.OK [32m77.OK [32m78.OK [32m79.OK [32m80.OK [32m81.OK [32m82.OK [32m83.OK [32m84.OK [32m85.OK [32m86.OK 
+[37msubcategory: x[0m
+[32m87.OK [32m88.OK [32m89.OK [32m90.OK [32m91.OK [32m92.OK [32m93.OK [32m94.OK 

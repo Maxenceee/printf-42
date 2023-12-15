@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:24 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/14 23:52:09 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 16:50:57 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,9 +44,9 @@ static void	ft_switch_types(int type, va_list *argp, int *count, t_flags flags)
 	else if (type == 'u')
 		ft_print_u_int(va_arg(*argp, unsigned long), count, flags);
 	else if (type == 'x')
-		ft_print_hex(va_arg(*argp, unsigned int), 1, count, flags);
+		ft_print_hex(va_arg(*argp, uint32_t), 1, count, flags);
 	else if (type == 'X')
-		ft_print_hex(va_arg(*argp, unsigned int), 0, count, flags);
+		ft_print_hex(va_arg(*argp, uint32_t), 0, count, flags);
 	else if (type == 'p')
 		ft_print_pointer(va_arg(*argp, unsigned long int), count, flags);
 }

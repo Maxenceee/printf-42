@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:24 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/14 23:54:46 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 16:50:57 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,15 +19,15 @@ void	ft_switch_types(const char *fmt, va_list *argp, int *count)
 	else if (*fmt == 'c')
 		ft_putchar(va_arg(*argp, long), count);
 	else if (*fmt == 's')
-		ft_putstr_fd(va_arg(*argp, char *), 1, count);
+		ft_putstr_fd(va_arg(*argp, char *), STDOUT_FILENO, count);
 	else if (*fmt == 'd' || *fmt == 'i')
 		ft_putnbr(va_arg(*argp, long), count);
 	else if (*fmt == 'u')
 		ft_putnbr_u(va_arg(*argp, unsigned long), count);
 	else if (*fmt == 'x')
-		ft_puthex(va_arg(*argp, unsigned int), 0, count);
+		ft_puthex(va_arg(*argp, uint32_t), 0, count);
 	else if (*fmt == 'X')
-		ft_puthex(va_arg(*argp, unsigned int), 16, count);
+		ft_puthex(va_arg(*argp, uint32_t), 16, count);
 	else if (*fmt == 'p')
 		ft_puthex_p(va_arg(*argp, unsigned long int), count);
 }

@@ -6,13 +6,14 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:45 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 15:06:15 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 16:50:57 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_BONUS_H
 # define FT_PRINTF_BONUS_H
 
+# include <stdio.h>
 # include <unistd.h>
 # include <stdarg.h>
 # include <stdlib.h>
@@ -53,17 +54,17 @@ void	ft_print_str(char *s, int *count, t_flags flags);
 void	ft_print_int(int i, int *count, t_flags flags);
 
 /* print_u_int */
-void	ft_print_u_int(unsigned int unsi, int *count, t_flags flags);
+void	ft_print_u_int(uint32_t unsi, int *count, t_flags flags);
 
 /* print_float */
 void	ft_print_float(double i, int *count, t_flags flags);
 
 /* print_hex */
-void	ft_print_hex(unsigned int ui, int lower,
+void	ft_print_hex(uint32_t ui, int lower,
 			int *count, t_flags flags);
 
 /* print_pointer */
-void	ft_print_pointer(unsigned long long ull, int *count,
+void	ft_print_pointer(uint64_t ull, int *count,
 			t_flags flags);
 
 /* strlen */
@@ -84,7 +85,7 @@ int		get_num_len(int num);
 char	*ft_itoa(long int n);
 
 /* uitoa*/
-char	*ft_u_itoa(unsigned int n);
+char	*ft_u_itoa(uint32_t n);
 
 /* ftoa*/
 char	*ft_ftoa(double x, int max);
@@ -93,7 +94,7 @@ char	*ft_ftoa(double x, int max);
 char	*ft_strdup(const char *src);
 
 /* strlcat */
-int		ft_strlcat(char *dest, char *src, unsigned int size);
+int		ft_strlcat(char *dest, char *src, uint32_t size);
 
 /* strcat */
 char	*ft_strcat(char *dest, char *src);
@@ -106,7 +107,7 @@ char	*ft_str_tolower(char *str);
 int		ft_tolower(int num);
 
 /* convert base */
-char	*ft_convert_base(unsigned long long ull, int base);
+char	*ft_convert_base(uint64_t ull, int base);
 
 /* ft_calloc */
 void	*ft_calloc(size_t count, size_t size);
@@ -120,5 +121,7 @@ void	ft_bzero(void *s, size_t n);
 
 /* ft_pow */
 double	ft_pow(double x, double y);
+
+int		ft_min(int a, int b);
 
 #endif /* FT_PRINTF_BONUS_H */

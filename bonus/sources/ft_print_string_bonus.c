@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 20:07:51 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 15:06:05 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 17:07:19 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,18 +47,24 @@ static void	ft_print_spaces(char *str, int *count, t_flags flags)
 
 void	ft_print_str(char *s, int *count, t_flags flags)
 {
-	int	c;
-	int	len;
+	int		c;
+	size_t	len;
 
 	c = 0;
 	if (!s)
+	{
+		if (!(flags.dot == -1 || flags.dot > 6))
+			return (ft_print_width(flags.width, 0, 0, count));
 		s = "(null)";
+	}
 	len = ft_strlen(s);
 	if (flags.dot >= 0 && (size_t)flags.dot > len)
 		flags.dot = len;
 	if (flags.minus == 1)
 		ft_print_spaces(s, count, flags);
-	if (flags.dot >= 0)
+	if (flags.dot >= 0 && flags.width > 0)
+		ft_print_width(flags.width, flags.dot, 0, count);
+	else if (flags.dot >= 0)
 		ft_print_max_width(flags.width, flags.dot, 0, count);
 	else
 		ft_print_width(flags.width, len, 0, count);

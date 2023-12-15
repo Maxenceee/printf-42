@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 14:21:31 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/14 23:34:51 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 16:50:57 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ void	ft_putnbr(int nb, int *count)
 {
 	if (nb == -2147483648)
 	{
-		ft_putstr_fd("-2147483648", 1, count);
+		ft_putstr_fd("-2147483648", STDOUT_FILENO, count);
 		return ;
 	}
 	if (nb < 0)
@@ -50,7 +50,7 @@ void	ft_putnbr(int nb, int *count)
 		ft_putchar(nb + 48, count);
 }
 
-void	ft_putnbr_u(unsigned int nb, int *count)
+void	ft_putnbr_u(uint32_t nb, int *count)
 {
 	if (nb > 9)
 	{

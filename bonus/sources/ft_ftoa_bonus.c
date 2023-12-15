@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 16:45:47 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 14:14:31 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 17:13:58 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -160,18 +160,18 @@ static void	reverse_string(char *str, int start, int end)
 static char	*convert_fraction(char *res, int i,
 	double fpart, int afterpoint)
 {
-	char			fraction_str[FTOA_BUFFER_SIZE];
-	long long int	to_int;
+	char	fraction_str[FTOA_BUFFER_SIZE + 1];
+	int64_t	to_int;
 
 	ft_strcat(res, ".");
-	fpart = (fpart * ft_pow(10, afterpoint)) + 0.5;
-	to_int = (long long int)fpart;
-	ft_memset(fraction_str, 0, FTOA_BUFFER_SIZE);
+	fpart = (fpart * ft_pow(10, ft_min(afterpoint, FTOA_BUFFER_SIZE))) + 0.5;
+	to_int = (int64_t)fpart;
+	ft_memset(fraction_str, 0, FTOA_BUFFER_SIZE + 1);
 	while (to_int < 0 && i < FTOA_BUFFER_SIZE)
 	{
 		fpart /= 10;
 		fraction_str[(i)++] = '0';
-		to_int = (long long int)fpart;
+		to_int = (int64_t)fpart;
 	}
 	while ((to_int > 0 || (i) < afterpoint) && i < FTOA_BUFFER_SIZE)
 	{
@@ -192,7 +192,8 @@ char	*ft_ftoa(double n, int afterpoint)
 
 	ipart = (int)n;
 	fpart = n - (float)ipart;
-	res = ft_calloc((get_num_len(ipart) + 1), sizeof(char));
+	res = ft_calloc(get_num_len(ipart) + 1 + (n < 0)
+			+ (afterpoint != 0), sizeof(char));
 	if (!res)
 		return (NULL);
 	i = 0;

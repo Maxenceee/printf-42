@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:45 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/14 23:31:49 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 16:57:04 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,8 @@
 # include <stdio.h>
 # include <unistd.h>
 # include <stdarg.h>
-# include <limits.h>
+# include <stdlib.h>
+# include <stdint.h>
 
 # define DIGITS "0123456789abcdef0123456789ABCDEF"
 
@@ -27,10 +28,10 @@ void	ft_putchar(char c, int *count);
 void	ft_putstr_fd(char *s, int fd, int *count);
 
 void	ft_putnbr(int nb, int *count);
-void	ft_putnbr_u(unsigned int nb, int *count);
+void	ft_putnbr_u(uint32_t nb, int *count);
 
-void	ft_putnbr_base(unsigned int nbr, int capitals, int *count);
-void	ft_puthex(unsigned int n, int capitals, int *count);
+void	ft_putnbr_base(uint32_t nbr, int capitals, int *count);
+void	ft_puthex(uint32_t n, int capitals, int *count);
 
 void	ft_putnbr_base_p(unsigned long int nbr, int capitals, int *count);
 void	ft_puthex_p(unsigned long int n, int *count);

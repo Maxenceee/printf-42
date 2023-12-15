@@ -6,13 +6,13 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:39:03 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/14 23:51:57 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 17:13:44 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf_bonus.h"
 
-static char	*ft_put_base(unsigned long long ull_save, int base,
+static char	*ft_put_base(uint64_t ull_save, int base,
 	char *rtn, int count)
 {
 	while (ull_save != 0)
@@ -27,11 +27,11 @@ static char	*ft_put_base(unsigned long long ull_save, int base,
 	return (rtn);
 }
 
-char	*ft_convert_base(unsigned long long ull, int base)
+char	*ft_convert_base(uint64_t ull, int base)
 {
-	char				*rtn;
-	unsigned long long	ull_save;
-	int					count;
+	char		*rtn;
+	uint64_t	ull_save;
+	int			count;
 
 	rtn = 0;
 	count = 0;
