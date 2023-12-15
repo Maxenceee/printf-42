@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 20:07:51 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 19:20:55 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 21:16:21 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_put_str(char *str, int *count)
 
 void	ft_putstrprec(char *str, int prec, int *count)
 {
-	int	c;
+	size_t	c;
 
 	c = 0;
 	while (str[c] && c < prec)

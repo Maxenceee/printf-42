@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/08 14:56:46 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/14 23:51:57 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 21:16:03 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 double	ft_pow(double x, double y)
 {
 	double	result;
-	int		i;
+	size_t	i;
 
 	result = 1.0;
 	i = 0;

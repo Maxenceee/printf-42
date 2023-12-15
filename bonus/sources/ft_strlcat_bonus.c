@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 13:59:56 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 16:50:57 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 21:17:03 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@ int	ft_strlcat(char *dest, char *src, uint32_t size)
 {
 	char	*d;
 	char	*s;
-	int		n;
-	int		dlen;
+	size_t	n;
+	size_t	dlen;
 
 	d = dest;
 	s = src;

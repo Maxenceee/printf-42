@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/06 13:59:41 by rchallie          #+#    #+#             */
-/*   Updated: 2023/12/15 16:50:57 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 21:17:20 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static int	get_num_ulen(unsigned long num)
 {
-	int	count;
+	size_t	count;
 
 	count = 0;
 	while (num != 0)

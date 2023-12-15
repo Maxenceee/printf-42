@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 20:17:43 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/14 23:52:09 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/16 00:51:03 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,12 @@
 static void	ft_print_in_int_spaces(char *d_i, int save_i,
 	int *count, t_flags flags)
 {
-	if (save_i < 0 && flags.plus == 0 && flags.dot >= 0)
+	if (save_i < 0 && flags.dot >= 0)
 		ft_putchar_c('-', count);
+	else if (save_i >= 0 && flags.plus == 1)
+		ft_putchar_c('+', count);
+	else if (save_i >= 0 && flags.blank == 1)
+		ft_putchar_c(' ', count);
 	if (flags.dot >= 0)
 		ft_print_width(flags.dot - 1, ft_strlen(d_i) - 1, 1, count);
 	ft_putstrprec(d_i, ft_strlen(d_i), count);
@@ -43,7 +47,11 @@ static void	ft_print_int_spaces(char *d_i, int save_i,
 
 static void	ft_print_int_flags(t_flags *flags, long int *li, int *count)
 {
-	if (*li < 0 && (flags->dot >= 0 || flags->zero == 1))
+	if (*li >= 0 && (flags->plus == 1 || flags->blank == 1))
+		flags->width--;
+	if (!(flags->dot >= 0 || flags->zero == 1))
+		return ;
+	if (*li < 0)
 	{
 		if (flags->zero == 1 && flags->dot == -1)
 			ft_putstrprec("-", 1, count);
@@ -51,15 +59,15 @@ static void	ft_print_int_flags(t_flags *flags, long int *li, int *count)
 		flags->zero = 1;
 		flags->width--;
 	}
-	else if (*li >= 0 && flags->plus == 1)
+	else if (*li >= 0 && flags->plus == 1 && flags->zero == 1)
 	{
 		ft_putstrprec("+", 1, count);
-		flags->width--;
+		flags->plus = 0;
 	}
-	else if (*li >= 0 && flags->blank == 1)
+	else if (*li >= 0 && flags->blank == 1 && flags->zero == 1)
 	{
 		ft_putstrprec(" ", 1, count);
-		flags->width--;
+		flags->blank = 0;
 	}
 }
 
@@ -69,13 +77,11 @@ void	ft_print_int(int i, int *count, t_flags flags)
 	long int	li;
 
 	li = i;
-	if (flags.dot == 0 && li == 0)
-	{
-		ft_print_width(flags.width, 0, 0, count);
-		return ;
-	}
 	ft_print_int_flags(&flags, &li, count);
-	d_i = ft_itoa(li);
+	if (li == 0 && flags.dot == 0)
+		d_i = ft_calloc(1, sizeof(char));
+	else
+		d_i = ft_itoa(li);
 	if (!d_i)
 		return ;
 	ft_print_int_spaces(d_i, i, count, flags);

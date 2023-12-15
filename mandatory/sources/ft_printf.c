@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:24 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 16:50:57 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 21:17:33 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ void	ft_switch_types(const char *fmt, va_list *argp, int *count)
 
 void	print_type(const char *fmt, va_list *argp, int *count)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (fmt[i] != '\0')
