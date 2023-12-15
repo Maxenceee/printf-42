@@ -199,16 +199,27 @@ int main(void)
 	// printf(" %-1p %-2p \n", 0, 0);
 	// ft_printf(" %-1p %-2p \n", 0, 0);
 	// printf("\n");
-	printf("%5%\n");
-	ft_printf("%5%\n");
-	printf("%-5%\n");
-	ft_printf("%-5%\n");
-	printf("%-05%\n");
-	ft_printf("%-05%\n");
-	printf("percent 2 %12%\n");
-	ft_printf("percent 2 %12%\n");
-	printf("percent 3 %-12%\n");
-	ft_printf("percent 3 %-12%\n");
+	// printf("%5%\n");
+	// ft_printf("%5%\n");
+	// printf("%-5%\n");
+	// ft_printf("%-5%\n");
+	// printf("%-05%\n");
+	// ft_printf("%-05%\n");
+	// printf("percent 2 %12%\n");
+	// ft_printf("percent 2 %12%\n");
+	// printf("percent 3 %-12%\n");
+	// ft_printf("percent 3 %-12%\n");
+
+	// printf("%p\n", NULL);
+	// ft_printf("%p\n", NULL);
+	// printf("%p\n", NULL);
+	// ft_printf("%p\n", NULL);
+	// printf("%p\n", NULL);
+	// ft_printf("%p\n", NULL);
+	// printf("%15p\n", NULL);
+	// ft_printf("%15p\n", NULL);
+	// printf("%-15p\n", NULL);
+	// ft_printf("%-15p\n", NULL);
 
 	return (0);
 }
