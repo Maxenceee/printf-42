@@ -6,11 +6,28 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 16:48:29 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/14 23:51:57 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 14:40:52 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf_bonus.h"
+
+void	*ft_memcpy(void *dst, const void *src, size_t n)
+{
+	size_t	i;
+	void	*lst_dst;
+
+	if (n == 0 || dst == src)
+		return (dst);
+	i = 0;
+	lst_dst = dst;
+	while (i < n)
+	{
+		((char *)dst)[i] = ((char *)src)[i];
+		i++;
+	}
+	return (lst_dst);
+}
 
 void	*ft_memset(void *b, int c, size_t len)
 {

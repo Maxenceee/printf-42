@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 16:42:36 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/14 23:51:57 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 14:40:45 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,15 +17,13 @@ char	*ft_strdup(const char *src)
 	char	*str;
 	int		i;
 
-	str = malloc((ft_strlen(src) + 1) * sizeof(char));
+	if (!src)
+		return (NULL);
+	i = ft_strlen(src);
+	str = malloc((i + 1) * sizeof(char));
 	if (!str)
 		return (NULL);
-	i = 0;
-	while (src[i] != '\0')
-	{
-		str[i] = src[i];
-		i++;
-	}
-	str[i] = '\0';
+	ft_memcpy(str, src, i);
+	ft_memset(str + i, '\0', sizeof(char));
 	return (str);
 }

@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:45 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 14:05:04 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 14:41:06 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -110,7 +110,8 @@ char	*ft_convert_base(unsigned long long ull, int base);
 /* ft_calloc */
 void	*ft_calloc(size_t count, size_t size);
 
-/* ft_memset */
+/* mem */
+void	*ft_memcpy(void *dst, const void *src, size_t n);
 void	*ft_memset(void *b, int c, size_t len);
 
 /* ft_bzero */
