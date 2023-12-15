@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 19:55:31 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/14 23:52:09 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 18:17:09 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,29 @@ void	ft_putchar_c(char c, int *count)
 	(*count)++;
 }
 
-void	ft_print_char(char c, int *count, t_flags flags)
+#ifdef __APPLE__
+
+void	ft_print_char(char c, int *count, t_flags flags, int percent)
 {
+	(void)percent;
 	if (flags.minus == 1)
 		ft_putchar_c(c, count);
 	ft_print_width(flags.width, 1, 0, count);
 	if (flags.minus == 0)
 		ft_putchar_c(c, count);
 }
+
+#else
+
+void	ft_print_char(char c, int *count, t_flags flags, int percent)
+{
+	if (percent)
+		return ((void)ft_putchar_c(c, count));
+	if (flags.minus == 1)
+		ft_putchar_c(c, count);
+	ft_print_width(flags.width, 1, 0, count);
+	if (flags.minus == 0)
+		ft_putchar_c(c, count);
+}
+
+#endif /* __APPLE__ */

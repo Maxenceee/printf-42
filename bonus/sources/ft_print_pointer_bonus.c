@@ -6,14 +6,16 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:47:22 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 17:49:35 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 17:57:20 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf_bonus.h"
 #include "ft_flags_bonus.h"
 
-static void	ft_print_in_pointer_spaces(char *pointer, uint64_t or,
+#ifdef __APPLE__
+
+static void	ft_print_in_pointer_spaces(char *pointer,
 	int *count, t_flags flags)
 {
 	size_t	len;
@@ -28,8 +30,6 @@ static void	ft_print_in_pointer_spaces(char *pointer, uint64_t or,
 	else
 		ft_putstrprec(pointer, len, count);
 }
-
-#ifdef __APPLE__
 
 void	ft_print_pointer(uint64_t ull, int *count, t_flags flags)
 {
@@ -50,14 +50,31 @@ void	ft_print_pointer(uint64_t ull, int *count, t_flags flags)
 	if ((size_t)flags.dot < len)
 		flags.dot = len;
 	if (flags.minus == 1)
-		ft_print_in_pointer_spaces(pointer, ull, count, flags);
+		ft_print_in_pointer_spaces(pointer, count, flags);
 	ft_print_width(flags.width, len + 2, 0, count);
 	if (flags.minus == 0)
-		ft_print_in_pointer_spaces(pointer, ull, count, flags);
+		ft_print_in_pointer_spaces(pointer, count, flags);
 	free(pointer);
 }
 
 #else
+
+static void	ft_print_in_pointer_spaces(char *pointer, uint64_t or,
+	int *count, t_flags flags)
+{
+	size_t	len;
+
+	len = ft_strlen(pointer);
+	if (or)
+		ft_putstrprec("0x", 2, count);
+	if (flags.dot >= 0)
+	{
+		ft_print_width(flags.dot, len, 1, count);
+		ft_putstrprec(pointer, flags.dot, count);
+	}
+	else
+		ft_putstrprec(pointer, len, count);
+}
 
 void	ft_print_pointer(uint64_t ull, int *count, t_flags flags)
 {

@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:45 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 16:50:57 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 18:13:41 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ void	ft_print_max_width(int width, int max, int has_zero, int *count);
 /* print_char */
 void	ft_putchar(char c);
 void	ft_putchar_c(char c, int *count);
-void	ft_print_char(char c, int *count, t_flags flags);
+void	ft_print_char(char c, int *count, t_flags flags, int percent);
 
 /* print_string */
 void	ft_put_str(char *str, int *count);
