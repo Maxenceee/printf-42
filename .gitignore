@@ -2,3 +2,4 @@
 .objs/
 *.out
 *.a
+tests/*.dSYM
