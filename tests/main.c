@@ -45,5 +45,10 @@ int main(void)
 	printf("len %d\n", ft_printf("%#.10X\n", NULL));
 	printf("len %d\n", printf("%#.10X\n", 42));
 	printf("len %d\n", ft_printf("%#.10X\n", 42));
+
+	printf("len %d\n", printf("%*x\n", 5, 42));
+	printf("len %d\n", ft_printf("%*x\n", 5, 42));
+	printf("len %d\n", printf("%.*s\n", 4, "hello"));
+	printf("len %d\n", ft_printf("%.*s\n", 4, "hello"));
 	return (0);
 }
