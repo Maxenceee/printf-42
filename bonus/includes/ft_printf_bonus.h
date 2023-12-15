@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:45 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 00:25:19 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 01:07:16 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <unistd.h>
 # include <stdarg.h>
 # include <stdlib.h>
+# include <stdint.h>
 
 typedef struct s_flags
 {
