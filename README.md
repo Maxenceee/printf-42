@@ -1,5 +1,7 @@
 # Printf 42
 
+Cross platform (MacOS/Linux) printf function.
+
 ### Mandatory
 Supported types : %, c, s, d, i, u, x, X, p <br/>
 Supported flags : none
