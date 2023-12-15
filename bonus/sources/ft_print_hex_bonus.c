@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:26:50 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 16:50:57 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 19:20:21 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,9 @@
 static void	ft_print_in_hex_spaces(char *hexa, int lower,
 	int *count, t_flags flags)
 {
+	size_t	len;
+
+	len = ft_strlen(hexa);
 	if (flags.hex == 1)
 	{
 		if (lower == 1)
@@ -24,17 +27,20 @@ static void	ft_print_in_hex_spaces(char *hexa, int lower,
 			ft_putstrprec("0X", 2, count);
 	}
 	if (flags.dot >= 0)
-		ft_print_width(flags.dot - 1, ft_strlen(hexa) - 1, 1, count);
-	ft_putstrprec(hexa, ft_strlen(hexa), count);
+		ft_print_width(flags.dot - 1, len - 1, 1, count);
+	ft_putstrprec(hexa, len, count);
 }
 
 static void	ft_print_hex_spaces(char *hexa, int lower,
 	int *count, t_flags flags)
 {
+	size_t	len;
+
+	len = ft_strlen(hexa);
 	if (flags.minus == 1)
 		ft_print_in_hex_spaces(hexa, lower, count, flags);
-	if (flags.dot >= 0 && (size_t)flags.dot < ft_strlen(hexa))
-		flags.dot = ft_strlen(hexa);
+	if (flags.dot >= 0 && (size_t)flags.dot < len)
+		flags.dot = len;
 	if (flags.dot >= 0)
 	{
 		flags.width -= flags.dot;
@@ -42,7 +48,7 @@ static void	ft_print_hex_spaces(char *hexa, int lower,
 	}
 	else
 		ft_print_width(flags.width,
-			ft_strlen(hexa), flags.zero, count);
+			len, flags.zero, count);
 	if (flags.minus == 0)
 		ft_print_in_hex_spaces(hexa, lower, count, flags);
 }

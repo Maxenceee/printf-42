@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 20:07:51 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 18:23:03 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 19:20:55 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,14 +34,17 @@ void	ft_putstrprec(char *str, int prec, int *count)
 
 static void	ft_print_spaces(char *str, int *count, t_flags flags)
 {
+	size_t	len;
+
+	len = ft_strlen(str);
 	if (flags.dot >= 0)
 	{
-		ft_print_width(flags.dot, ft_strlen(str), 0, count);
+		ft_print_width(flags.dot, len, 0, count);
 		ft_putstrprec(str, flags.dot, count);
 	}
 	else
 	{
-		ft_putstrprec(str, ft_strlen(str), count);
+		ft_putstrprec(str, len, count);
 	}
 }
 
