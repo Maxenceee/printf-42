@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:47:22 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/14 23:52:09 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 15:06:35 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ void	ft_print_pointer(unsigned long long ull, int *count, t_flags flags)
 {
 	char	*pointer;
 
+	if (!ull)
+		return ((void)ft_put_str("(nil)", count));
 	if (ull == 0 && flags.dot == 0)
 	{
 		ft_putstrprec("0x", 2, count);

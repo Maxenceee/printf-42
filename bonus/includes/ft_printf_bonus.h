@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:45 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 14:41:06 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 15:06:15 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,7 @@ void	ft_putchar_c(char c, int *count);
 void	ft_print_char(char c, int *count, t_flags flags);
 
 /* print_string */
+void	ft_put_str(char *str, int *count);
 void	ft_putstrprec(char *str, int prec, int *count);
 void	ft_print_str(char *s, int *count, t_flags flags);
 

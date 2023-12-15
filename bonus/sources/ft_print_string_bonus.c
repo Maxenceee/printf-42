@@ -6,12 +6,21 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 20:07:51 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 15:00:58 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 15:06:05 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf_bonus.h"
 #include "ft_flags_bonus.h"
+
+void	ft_put_str(char *str, int *count)
+{
+	size_t	c;
+
+	c = ft_strlen(str);
+	write(STDOUT_FILENO, str, c);
+	(*count) += c;
+}
 
 void	ft_putstrprec(char *str, int prec, int *count)
 {
