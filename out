@@ -236,4 +236,701 @@ Error: TOO_MANY_LINES       (line: 166, col:   1):	Function has more than 25 lin
 [37msubcategory: u[0m
 [32m58.OK [32m59.OK [32m60.OK [32m61.OK [32m62.OK [32m63.OK [32m64.OK [32m65.OK [32m66.OK [32m67.OK [32m68.OK [32m69.OK [32m70.OK [32m71.OK [32m72.OK [32m73.OK [32m74.OK [32m75.OK [32m76.OK [32m77.OK [32m78.OK [32m79.OK [32m80.OK [32m81.OK [32m82.OK [32m83.OK [32m84.OK [32m85.OK [32m86.OK 
 [37msubcategory: x[0m
-[32m87.OK [32m88.OK [32m89.OK [32m90.OK [32m91.OK [32m92.OK [32m93.OK [32m94.OK 
+[32m87.OK [32m88.OK [32m89.OK [32m90.OK [32m91.OK [32m92.OK [32m93.OK [32m94.OK [32m95.OK [32m96.OK [32m97.OK [32m98.OK [32m99.OK [32m100.OK [32m101.OK [32m102.OK [32m103.OK [32m104.OK [32m105.OK [32m106.OK [32m107.OK [32m108.OK [32m109.OK [32m110.OK [32m111.OK [32m112.OK [32m113.OK [32m114.OK [32m115.OK 
+[37msubcategory: X[0m
+[32m116.OK [32m117.OK [32m118.OK [32m119.OK [32m120.OK [32m121.OK [32m122.OK [32m123.OK [32m124.OK [32m125.OK [32m126.OK [32m127.OK [32m128.OK [32m129.OK [32m130.OK [32m131.OK [32m132.OK [32m133.OK [32m134.OK [32m135.OK [32m136.OK [32m137.OK [32m138.OK [32m139.OK [32m140.OK [32m141.OK [32m142.OK [32m143.OK [32m144.OK [0m
+[93mcategory: .[0m
+[37msubcategory: s[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK 
+[37msubcategory: d[0m
+[32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK [32m29.OK [32m30.OK [32m31.OK [32m32.OK [32m33.OK [32m34.OK [32m35.OK [32m36.OK [32m37.OK [32m38.OK 
+[37msubcategory: i[0m
+[32m39.OK [32m40.OK [32m41.OK [32m42.OK [32m43.OK [32m44.OK [32m45.OK [32m46.OK [32m47.OK [32m48.OK [32m49.OK [32m50.OK [32m51.OK [32m52.OK [32m53.OK [32m54.OK [32m55.OK [32m56.OK [32m57.OK [32m58.OK [32m59.OK [32m60.OK [32m61.OK [32m62.OK [32m63.OK [32m64.OK [32m65.OK [32m66.OK [32m67.OK 
+[37msubcategory: u[0m
+[32m68.OK [32m69.OK [32m70.OK [32m71.OK [32m72.OK [32m73.OK [32m74.OK [32m75.OK [32m76.OK [32m77.OK [32m78.OK [32m79.OK [32m80.OK [32m81.OK [32m82.OK [32m83.OK [32m84.OK [32m85.OK [32m86.OK [32m87.OK [32m88.OK [32m89.OK [32m90.OK [32m91.OK [32m92.OK [32m93.OK [32m94.OK [32m95.OK [32m96.OK 
+[37msubcategory: x[0m
+[32m97.OK [32m98.OK [32m99.OK [32m100.OK [32m101.OK [32m102.OK [32m103.OK [32m104.OK [32m105.OK [32m106.OK [32m107.OK [32m108.OK [32m109.OK [32m110.OK [32m111.OK [32m112.OK [32m113.OK [32m114.OK [32m115.OK [32m116.OK [32m117.OK [32m118.OK [32m119.OK [32m120.OK [32m121.OK [32m122.OK [32m123.OK [32m124.OK [32m125.OK 
+[37msubcategory: X[0m
+[32m126.OK [32m127.OK [32m128.OK [32m129.OK [32m130.OK [32m131.OK [32m132.OK [32m133.OK [32m134.OK [32m135.OK [32m136.OK [32m137.OK [32m138.OK [32m139.OK [32m140.OK [32m141.OK [32m142.OK [32m143.OK [32m144.OK [32m145.OK [32m146.OK [32m147.OK [32m148.OK [32m149.OK [32m150.OK [32m151.OK [32m152.OK [32m153.OK [32m154.OK [0m
+[93mcategory: #[0m
+[37msubcategory: x[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK [32m29.OK [32m30.OK 
+[37msubcategory: X[0m
+[32m31.OK [32m32.OK [32m33.OK [32m34.OK [32m35.OK [32m36.OK [32m37.OK [32m38.OK [32m39.OK [32m40.OK [32m41.OK [32m42.OK [32m43.OK [32m44.OK [32m45.OK [32m46.OK [32m47.OK [32m48.OK [32m49.OK [32m50.OK [32m51.OK [32m52.OK [32m53.OK [32m54.OK [32m55.OK [32m56.OK [32m57.OK [32m58.OK [32m59.OK [0m
+[93mcategory: ' '[0m
+[37msubcategory: s[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK 
+[37msubcategory: d[0m
+[32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK [32m29.OK [32m30.OK [32m31.OK [32m32.OK [32m33.OK [32m34.OK [32m35.OK [32m36.OK [32m37.OK [32m38.OK 
+[37msubcategory: i[0m
+[32m39.OK [32m40.OK [32m41.OK [32m42.OK [32m43.OK [32m44.OK [32m45.OK [32m46.OK [32m47.OK [32m48.OK [32m49.OK [32m50.OK [32m51.OK [32m52.OK [32m53.OK [32m54.OK [32m55.OK [32m56.OK [32m57.OK [32m58.OK [32m59.OK [32m60.OK [32m61.OK [32m62.OK [32m63.OK [32m64.OK [32m65.OK [32m66.OK [32m67.OK [0m
+[93mcategory: +[0m
+[37msubcategory: d[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK 
+[37msubcategory: i[0m
+[32m29.OK [32m30.OK [32m31.OK [32m32.OK [32m33.OK [32m34.OK [32m35.OK [32m36.OK [32m37.OK [32m38.OK [32m39.OK [32m40.OK [32m41.OK [32m42.OK [32m43.OK [32m44.OK [32m45.OK [32m46.OK [32m47.OK [32m48.OK [32m49.OK [32m50.OK [32m51.OK [32m52.OK [32m53.OK [32m54.OK [32m55.OK [32m56.OK [32m57.OK [0m
+
+⠋ Processing output⠙ Processing outputErrors found:
+For /nfs/homes/mgama/francinette/tests/printf/printfTester/tests/minus_test.cpp:
+51:     TEST(25, print(" %-4p ", 17));
+53:     TEST(27, print(" %-11p %-12p ", INT_MIN, INT_MAX));
+54:     TEST(28, print(" %-13p %-14p ", ULONG_MAX, -ULONG_MAX));
+
+
+⠋ Compiling tests: printf-unit-test (https://github.com/ (...)⠙ Compiling tests: printf-unit-test (https://github.com/ (...)⠹ Compiling tests: printf-unit-test (https://github.com/ (...)⠸ Compiling tests: printf-unit-test (https://github.com/ (...)⠼ Compiling tests: printf-unit-test (https://github.com/ (...)⠴ Compiling tests: printf-unit-test (https://github.com/ (...)⠦ Compiling tests: printf-unit-test (https://github.com/ (...)⠧ Compiling tests: printf-unit-test (https://github.com/ (...)⠇ Compiling tests: printf-unit-test (https://github.com/ (...)⠏ Compiling tests: printf-unit-test (https://github.com/ (...)⠋ Compiling tests: printf-unit-test (https://github.com/ (...)⠙ Compiling tests: printf-unit-test (https://github.com/ (...)⠹ Compiling tests: printf-unit-test (https://github.com/ (...)⠸ Compiling tests: printf-unit-test (https://github.com/ (...)⠼ Compiling tests: printf-unit-test (https://github.com/ (...)✖ Compiling tests: printf-unit-test (https://github.com/alelievr/printf-unit-test)
+[1msrc/source_generator.cpp:103:8: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'strchr'[0m
+ℹ Running tests: printf-unit-test (https://github.com/alelievr/printf-unit-test)
+The command was not found or was not executable: ./run_test.
+⠋ Compiling tests: ft_printf_test (https://github.com/ca (...)⠙ Compiling tests: ft_printf_test (https://github.com/ca (...)⠹ Compiling tests: ft_printf_test (https://github.com/ca (...)✖ Compiling tests: ft_printf_test (https://github.com/cacharle/ft_printf_test)
+In file included from [01m[Kmain.c:14[m[K:
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:114:16:[m[K [01;35m[Kwarning: [m[Kprecision used with ‘[01m[K%c[m[K’ gnu_printf format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  114 |  ASSERT_PRINTF([01;35m[K"%.c"[m[K, 'a');
+      |                [01;35m[K^~~~~[m[K
+[01m[Kheader.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Kheader.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Kmain.c:114:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  114 |  [01;36m[KASSERT_PRINTF[m[K("%.c", 'a');
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Kmain.c:114:19:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  114 |  ASSERT_PRINTF("%.[01;36m[Kc[m[K", 'a');
+      |                   [01;36m[K^[m[K
+In file included from [01m[Kmain.c:14[m[K:
+[01m[Kmain.c:122:16:[m[K [01;35m[Kwarning: [m[Kprecision used with ‘[01m[K%c[m[K’ gnu_printf format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  122 |  ASSERT_PRINTF([01;35m[K"%1.c"[m[K, 'a');
+      |                [01;35m[K^~~~~~[m[K
+[01m[Kheader.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Kheader.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Kmain.c:122:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  122 |  [01;36m[KASSERT_PRINTF[m[K("%1.c", 'a');
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Kmain.c:122:20:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  122 |  ASSERT_PRINTF("%1.[01;36m[Kc[m[K", 'a');
+      |                    [01;36m[K^[m[K
+In file included from [01m[Kmain.c:14[m[K:
+[01m[Kmain.c:130:16:[m[K [01;35m[Kwarning: [m[Kprecision used with ‘[01m[K%c[m[K’ gnu_printf format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  130 |  ASSERT_PRINTF([01;35m[K"%5.c"[m[K, 'a');
+      |                [01;35m[K^~~~~~[m[K
+[01m[Kheader.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Kheader.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Kmain.c:130:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  130 |  [01;36m[KASSERT_PRINTF[m[K("%5.c", 'a');
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Kmain.c:130:20:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  130 |  ASSERT_PRINTF("%5.[01;36m[Kc[m[K", 'a');
+      |                    [01;36m[K^[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:[m[K In function ‘[01m[Ktest_pft_nacked[m[K’:
+[01m[Ktests/pft_tests.c:18:16:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+   18 |  ASSERT_PRINTF([01;35m[K""[m[K);
+      |                [01;35m[K^~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:18:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+   18 |  [01;36m[KASSERT_PRINTF[m[K("");
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:[m[K In function ‘[01m[Ktest_pft_percent[m[K’:
+[01m[Ktests/pft_tests.c:25:16:[m[K [01;35m[Kwarning: [m[Kconversion lacks type at end of format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   25 |  ASSERT_PRINTF([01;35m[K"%5%"[m[K);
+      |                [01;35m[K^~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:25:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+   25 |  [01;36m[KASSERT_PRINTF[m[K("%5%");
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:25:18:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   25 |  ASSERT_PRINTF("%[01;36m[K5[m[K%");
+      |                  [01;36m[K^[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:25:16:[m[K [01;35m[Kwarning: [m[Kspurious trailing ‘[01m[K%[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   25 |  ASSERT_PRINTF([01;35m[K"%5%"[m[K);
+      |                [01;35m[K^~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:25:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+   25 |  [01;36m[KASSERT_PRINTF[m[K("%5%");
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:25:19:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   25 |  ASSERT_PRINTF("%5[01;36m[K%[m[K");
+      |                   [01;36m[K^[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:26:16:[m[K [01;35m[Kwarning: [m[Kconversion lacks type at end of format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   26 |  ASSERT_PRINTF([01;35m[K"%-5%"[m[K);
+      |                [01;35m[K^~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:26:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+   26 |  [01;36m[KASSERT_PRINTF[m[K("%-5%");
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:26:19:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   26 |  ASSERT_PRINTF("%-[01;36m[K5[m[K%");
+      |                   [01;36m[K^[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:26:16:[m[K [01;35m[Kwarning: [m[Kspurious trailing ‘[01m[K%[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   26 |  ASSERT_PRINTF([01;35m[K"%-5%"[m[K);
+      |                [01;35m[K^~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:26:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+   26 |  [01;36m[KASSERT_PRINTF[m[K("%-5%");
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:26:20:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   26 |  ASSERT_PRINTF("%-5[01;36m[K%[m[K");
+      |                    [01;36m[K^[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:28:16:[m[K [01;35m[Kwarning: [m[Kconversion lacks type at end of format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   28 |  ASSERT_PRINTF([01;35m[K"%-05%"[m[K);
+      |                [01;35m[K^~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:28:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+   28 |  [01;36m[KASSERT_PRINTF[m[K("%-05%");
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:28:20:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   28 |  ASSERT_PRINTF("%-0[01;36m[K5[m[K%");
+      |                    [01;36m[K^[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:28:16:[m[K [01;35m[Kwarning: [m[Kspurious trailing ‘[01m[K%[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   28 |  ASSERT_PRINTF([01;35m[K"%-05%"[m[K);
+      |                [01;35m[K^~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:28:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+   28 |  [01;36m[KASSERT_PRINTF[m[K("%-05%");
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:28:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   28 |  ASSERT_PRINTF("%-05[01;36m[K%[m[K");
+      |                     [01;36m[K^[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:[m[K In function ‘[01m[Ktest_pft_nocrash[m[K’:
+[01m[Ktests/pft_tests.c:203:16:[m[K [01;35m[Kwarning: [m[Kprecision used with ‘[01m[K%c[m[K’ gnu_printf format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  203 |  ASSERT_PRINTF([01;35m[K"%.c"[m[K, 'a');
+      |                [01;35m[K^~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:203:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  203 |  [01;36m[KASSERT_PRINTF[m[K("%.c", 'a');
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:203:19:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  203 |  ASSERT_PRINTF("%.[01;36m[Kc[m[K", 'a');
+      |                   [01;36m[K^[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:224:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  224 |  ASSERT_PRINTF([01;35m[K"%-s"[m[K, NULL);
+      |                [01;35m[K^~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:224:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  224 |  [01;36m[KASSERT_PRINTF[m[K("%-s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:224:19:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  224 |  ASSERT_PRINTF("[01;36m[K%-s[m[K", NULL);
+      |                 [01;36m[K~~^[m[K
+      |                   [01;36m[K|[m[K
+      |                   [01;36m[Kchar *[m[K
+      |                 [32m[K%-p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:225:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  225 |  ASSERT_PRINTF([01;35m[K"%23s"[m[K, NULL);
+      |                [01;35m[K^~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:225:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  225 |  [01;36m[KASSERT_PRINTF[m[K("%23s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:225:20:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  225 |  ASSERT_PRINTF("[01;36m[K%23s[m[K", NULL);
+      |                 [01;36m[K~~~^[m[K
+      |                    [01;36m[K|[m[K
+      |                    [01;36m[Kchar *[m[K
+      |                 [32m[K%23p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:226:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  226 |  ASSERT_PRINTF([01;35m[K"%.s"[m[K, NULL);
+      |                [01;35m[K^~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:226:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  226 |  [01;36m[KASSERT_PRINTF[m[K("%.s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:226:19:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  226 |  ASSERT_PRINTF("[01;36m[K%.s[m[K", NULL);
+      |                 [01;36m[K~~^[m[K
+      |                   [01;36m[K|[m[K
+      |                   [01;36m[Kchar *[m[K
+      |                 [32m[K%.p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:232:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  232 |  ASSERT_PRINTF([01;35m[K"%s"[m[K, NULL);
+      |                [01;35m[K^~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:232:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  232 |  [01;36m[KASSERT_PRINTF[m[K("%s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:232:18:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  232 |  ASSERT_PRINTF("[01;36m[K%s[m[K", NULL);
+      |                 [01;36m[K~^[m[K
+      |                  [01;36m[K|[m[K
+      |                  [01;36m[Kchar *[m[K
+      |                 [32m[K%p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:[m[K In function ‘[01m[Ktest_pft_string[m[K’:
+[01m[Ktests/pft_tests.c:284:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  284 |  ASSERT_PRINTF([01;35m[K"hello, %s."[m[K, NULL);
+      |                [01;35m[K^~~~~~~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:284:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  284 |  [01;36m[KASSERT_PRINTF[m[K("hello, %s.", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:284:25:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  284 |  ASSERT_PRINTF("hello, [01;36m[K%s[m[K.", NULL);
+      |                        [01;36m[K~^[m[K
+      |                         [01;36m[K|[m[K
+      |                         [01;36m[Kchar *[m[K
+      |                        [32m[K%p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:285:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  285 |  ASSERT_PRINTF([01;35m[K"%s"[m[K, NULL);
+      |                [01;35m[K^~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:285:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  285 |  [01;36m[KASSERT_PRINTF[m[K("%s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:285:18:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  285 |  ASSERT_PRINTF("[01;36m[K%s[m[K", NULL);
+      |                 [01;36m[K~^[m[K
+      |                  [01;36m[K|[m[K
+      |                  [01;36m[Kchar *[m[K
+      |                 [32m[K%p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:286:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  286 |  ASSERT_PRINTF([01;35m[K"%32s"[m[K, NULL);
+      |                [01;35m[K^~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:286:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  286 |  [01;36m[KASSERT_PRINTF[m[K("%32s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:286:20:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  286 |  ASSERT_PRINTF("[01;36m[K%32s[m[K", NULL);
+      |                 [01;36m[K~~~^[m[K
+      |                    [01;36m[K|[m[K
+      |                    [01;36m[Kchar *[m[K
+      |                 [32m[K%32p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:287:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  287 |  ASSERT_PRINTF([01;35m[K"%2s"[m[K, NULL);
+      |                [01;35m[K^~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:287:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  287 |  [01;36m[KASSERT_PRINTF[m[K("%2s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:287:19:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  287 |  ASSERT_PRINTF("[01;36m[K%2s[m[K", NULL);
+      |                 [01;36m[K~~^[m[K
+      |                   [01;36m[K|[m[K
+      |                   [01;36m[Kchar *[m[K
+      |                 [32m[K%2p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:288:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  288 |  ASSERT_PRINTF([01;35m[K"%-32s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:288:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  288 |  [01;36m[KASSERT_PRINTF[m[K("%-32s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:288:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  288 |  ASSERT_PRINTF("[01;36m[K%-32s[m[K", NULL);
+      |                 [01;36m[K~~~~^[m[K
+      |                     [01;36m[K|[m[K
+      |                     [01;36m[Kchar *[m[K
+      |                 [32m[K%-32p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:289:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  289 |  ASSERT_PRINTF([01;35m[K"%-16s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:289:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  289 |  [01;36m[KASSERT_PRINTF[m[K("%-16s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:289:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  289 |  ASSERT_PRINTF("[01;36m[K%-16s[m[K", NULL);
+      |                 [01;36m[K~~~~^[m[K
+      |                     [01;36m[K|[m[K
+      |                     [01;36m[Kchar *[m[K
+      |                 [32m[K%-16p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:290:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  290 |  ASSERT_PRINTF([01;35m[K"%-3s"[m[K, NULL);
+      |                [01;35m[K^~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:290:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  290 |  [01;36m[KASSERT_PRINTF[m[K("%-3s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:290:20:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  290 |  ASSERT_PRINTF("[01;36m[K%-3s[m[K", NULL);
+      |                 [01;36m[K~~~^[m[K
+      |                    [01;36m[K|[m[K
+      |                    [01;36m[Kchar *[m[K
+      |                 [32m[K%-3p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:304:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  304 |  ASSERT_PRINTF([01;35m[K"%.03s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:304:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  304 |  [01;36m[KASSERT_PRINTF[m[K("%.03s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:304:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  304 |  ASSERT_PRINTF("[01;36m[K%.03s[m[K", NULL);
+      |                 [01;36m[K~~~~^[m[K
+      |                     [01;36m[K|[m[K
+      |                     [01;36m[Kchar *[m[K
+      |                 [32m[K%.03p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:305:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  305 |  ASSERT_PRINTF([01;35m[K"%.09s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:305:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  305 |  [01;36m[KASSERT_PRINTF[m[K("%.09s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:305:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  305 |  ASSERT_PRINTF("[01;36m[K%.09s[m[K", NULL);
+      |                 [01;36m[K~~~~^[m[K
+      |                     [01;36m[K|[m[K
+      |                     [01;36m[Kchar *[m[K
+      |                 [32m[K%.09p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:312:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  312 |  ASSERT_PRINTF([01;35m[K"%3.s"[m[K, NULL);
+      |                [01;35m[K^~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:312:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  312 |  [01;36m[KASSERT_PRINTF[m[K("%3.s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:312:20:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  312 |  ASSERT_PRINTF("[01;36m[K%3.s[m[K", NULL);
+      |                 [01;36m[K~~~^[m[K
+      |                    [01;36m[K|[m[K
+      |                    [01;36m[Kchar *[m[K
+      |                 [32m[K%3.p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:313:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  313 |  ASSERT_PRINTF([01;35m[K"%10.s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:313:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  313 |  [01;36m[KASSERT_PRINTF[m[K("%10.s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:313:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  313 |  ASSERT_PRINTF("[01;36m[K%10.s[m[K", NULL);
+      |                 [01;36m[K~~~~^[m[K
+      |                     [01;36m[K|[m[K
+      |                     [01;36m[Kchar *[m[K
+      |                 [32m[K%10.p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:319:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  319 |  ASSERT_PRINTF([01;35m[K"%-3.s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:319:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  319 |  [01;36m[KASSERT_PRINTF[m[K("%-3.s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:319:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  319 |  ASSERT_PRINTF("[01;36m[K%-3.s[m[K", NULL);
+      |                 [01;36m[K~~~~^[m[K
+      |                     [01;36m[K|[m[K
+      |                     [01;36m[Kchar *[m[K
+      |                 [32m[K%-3.p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:320:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  320 |  ASSERT_PRINTF([01;35m[K"%-8.s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:320:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  320 |  [01;36m[KASSERT_PRINTF[m[K("%-8.s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:320:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  320 |  ASSERT_PRINTF("[01;36m[K%-8.s[m[K", NULL);
+      |                 [01;36m[K~~~~^[m[K
+      |                     [01;36m[K|[m[K
+      |                     [01;36m[Kchar *[m[K
+      |                 [32m[K%-8.p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:326:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  326 |  ASSERT_PRINTF([01;35m[K"%3.1s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:326:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  326 |  [01;36m[KASSERT_PRINTF[m[K("%3.1s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:326:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  326 |  ASSERT_PRINTF("[01;36m[K%3.1s[m[K", NULL);
+      |                 [01;36m[K~~~~^[m[K
+      |                     [01;36m[K|[m[K
+      |                     [01;36m[Kchar *[m[K
+      |                 [32m[K%3.1p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:327:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  327 |  ASSERT_PRINTF([01;35m[K"%9.1s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:327:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  327 |  [01;36m[KASSERT_PRINTF[m[K("%9.1s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:327:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  327 |  ASSERT_PRINTF("[01;36m[K%9.1s[m[K", NULL);
+      |                 [01;36m[K~~~~^[m[K
+      |                     [01;36m[K|[m[K
+      |                     [01;36m[Kchar *[m[K
+      |                 [32m[K%9.1p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:330:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  330 |  ASSERT_PRINTF([01;35m[K"%-3.1s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:330:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  330 |  [01;36m[KASSERT_PRINTF[m[K("%-3.1s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:330:22:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  330 |  ASSERT_PRINTF("[01;36m[K%-3.1s[m[K", NULL);
+      |                 [01;36m[K~~~~~^[m[K
+      |                      [01;36m[K|[m[K
+      |                      [01;36m[Kchar *[m[K
+      |                 [32m[K%-3.1p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:331:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  331 |  ASSERT_PRINTF([01;35m[K"%-9.1s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:331:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  331 |  [01;36m[KASSERT_PRINTF[m[K("%-9.1s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:331:22:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  331 |  ASSERT_PRINTF("[01;36m[K%-9.1s[m[K", NULL);
+      |                 [01;36m[K~~~~~^[m[K
+      |                      [01;36m[K|[m[K
+      |                      [01;36m[Kchar *[m[K
+      |                 [32m[K%-9.1p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:336:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  336 |  ASSERT_PRINTF([01;35m[K"%3.6s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:336:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  336 |  [01;36m[KASSERT_PRINTF[m[K("%3.6s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:336:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  336 |  ASSERT_PRINTF("[01;36m[K%3.6s[m[K", NULL);
+      |                 [01;36m[K~~~~^[m[K
+      |                     [01;36m[K|[m[K
+      |                     [01;36m[Kchar *[m[K
+      |                 [32m[K%3.6p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:337:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  337 |  ASSERT_PRINTF([01;35m[K"%20.6s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:337:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  337 |  [01;36m[KASSERT_PRINTF[m[K("%20.6s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:337:22:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  337 |  ASSERT_PRINTF("[01;36m[K%20.6s[m[K", NULL);
+      |                 [01;36m[K~~~~~^[m[K
+      |                      [01;36m[K|[m[K
+      |                      [01;36m[Kchar *[m[K
+      |                 [32m[K%20.6p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:344:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  344 |  ASSERT_PRINTF([01;35m[K"%-3.8s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:344:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  344 |  [01;36m[KASSERT_PRINTF[m[K("%-3.8s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:344:22:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  344 |  ASSERT_PRINTF("[01;36m[K%-3.8s[m[K", NULL);
+      |                 [01;36m[K~~~~~^[m[K
+      |                      [01;36m[K|[m[K
+      |                      [01;36m[Kchar *[m[K
+      |                 [32m[K%-3.8p[m[K
+In file included from [01m[Ktests/pft_tests.c:13[m[K:
+[01m[Ktests/pft_tests.c:345:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  345 |  ASSERT_PRINTF([01;35m[K"%-10.8s"[m[K, NULL);
+      |                [01;35m[K^~~~~~~~~[m[K
+[01m[Ktests/../header.h:91:8:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KTEST_SEGFAULT[m[K’
+   91 |   do { [01;36m[Kx[m[K } while(0);       \
+      |        [01;36m[K^[m[K
+[01m[Ktests/../header.h:115:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTEST_PRINTF[m[K’
+  115 |  [01;36m[KTEST_PRINTF[m[K(__VA_ARGS__);                          \
+      |  [01;36m[K^~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:345:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRINTF[m[K’
+  345 |  [01;36m[KASSERT_PRINTF[m[K("%-10.8s", NULL);
+      |  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Ktests/pft_tests.c:345:23:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  345 |  ASSERT_PRINTF("[01;36m[K%-10.8s[m[K", NULL);
+      |                 [01;36m[K~~~~~~^[m[K
+      |                       [01;36m[K|[m[K
+      |                       [01;36m[Kchar *[m[K
+      |                 [32m[K%-10.8p[m[K
