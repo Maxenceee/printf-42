@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:47:22 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 17:48:12 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/15 17:49:35 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,6 @@ static void	ft_print_in_pointer_spaces(char *pointer, uint64_t or,
 }
 
 #ifdef __APPLE__
-
 
 void	ft_print_pointer(uint64_t ull, int *count, t_flags flags)
 {
