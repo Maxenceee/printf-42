@@ -43,7 +43,7 @@ HEADERBONUS_DIR	=	$(BONUS_DIR)/includes/
 CC				=	gcc
 RM				=	rm -f
 LIBC			=	ar rcs
-CFLAGS			=	-g3 #-Wall -Wextra -Werror
+CFLAGS			=	-g3 -Wall -Wextra -Werror
 
 NAME			=	libftprintf.a
 # NAME_BONUS		=	libftprintf_bonus.a
