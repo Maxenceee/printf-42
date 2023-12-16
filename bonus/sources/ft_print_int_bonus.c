@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 20:17:43 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/16 00:55:26 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/16 02:07:18 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,9 @@
 static void	ft_print_in_int_spaces(char *d_i, int save_i,
 	int *count, t_flags flags)
 {
+	size_t	len;
+
+	len = ft_strlen(d_i);
 	if (save_i < 0 && flags.dot >= 0)
 		ft_putchar_c('-', count);
 	else if (save_i >= 0 && flags.plus == 1)
@@ -23,24 +26,27 @@ static void	ft_print_in_int_spaces(char *d_i, int save_i,
 	else if (save_i >= 0 && flags.blank == 1)
 		ft_putchar_c(' ', count);
 	if (flags.dot >= 0)
-		ft_print_width(flags.dot - 1, ft_strlen(d_i) - 1, 1, count);
-	ft_putstrprec(d_i, ft_strlen(d_i), count);
+		ft_print_width(flags.dot - 1, len - 1, 1, count);
+	ft_putstrprec(d_i, len, count);
 }
 
 static void	ft_print_int_spaces(char *d_i, int save_i,
 	int *count, t_flags flags)
 {
+	size_t	len;
+
+	len = ft_strlen(d_i);
 	if (flags.minus == 1)
 		ft_print_in_int_spaces(d_i, save_i, count, flags);
-	if (flags.dot >= 0 && (size_t)flags.dot < ft_strlen(d_i))
-		flags.dot = ft_strlen(d_i);
+	if (flags.dot >= 0 && (size_t)flags.dot < len)
+		flags.dot = len;
 	if (flags.dot >= 0)
 	{
 		flags.width -= flags.dot;
 		ft_print_width(flags.width, 0, 0, count);
 	}
 	else
-		ft_print_width(flags.width, ft_strlen(d_i), flags.zero, count);
+		ft_print_width(flags.width, len, flags.zero, count);
 	if (flags.minus == 0)
 		ft_print_in_int_spaces(d_i, save_i, count, flags);
 }

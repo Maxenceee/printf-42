@@ -34,17 +34,67 @@ int main(void)
 	printf("len: %d\n", ft_printf("%f\n", 4242.000000001));
 	printf("\n");
 
-	printf("len: %d\n", printf("%-x\n", 4242));
-	printf("len: %d\n", ft_printf("%-x\n", 4242));
+	printf("len: %d\n", printf("%+0.f\n", 0.f));
+	printf("len: %d\n", ft_printf("%+0.f\n", 0.f));
 	printf("\n");
-	printf("len: %d\n", printf("%010x\n", 4242));
-	printf("len: %d\n", ft_printf("%010x\n", 4242));
+
+	printf("%08.3f\n", -8473.f);
+	ft_printf("%08.3f\n", -8473.f);
 	printf("\n");
-	printf("len: %d\n", printf("%-10x\n", 4242));
-	printf("len: %d\n", ft_printf("%-10x\n", 4242));
+	printf("%+8.3f\n", -8473.f);
+	ft_printf("%+8.3f\n", -8473.f);
 	printf("\n");
-	printf("len: %d\n", printf("%10d\n", 42));
-	printf("len: %d\n", ft_printf("%10d\n", 42));
+
+	printf("%15.4f\n", -424242.f);
+	ft_printf("%15.4f\n", -424242.f);
+	printf("\n");
+	
+	printf("%8.4f\n", -424242424.f);
+	ft_printf("%8.4f\n", -424242424.f);
+	printf("\n");
+
+	printf("%20.f\n", -1024.f);
+	ft_printf("%20.f\n", -1024.f);
+	printf("\n");
+
+	printf("%.f, %.f, %.f, %.f, %.f, %.f, %.f, %.f\n", 0.f, 5.f, -1.f, -10.f, 100.f, -1862.f, (float)INT_MIN, (float)INT_MAX);
+	ft_printf("%.f, %.f, %.f, %.f, %.f, %.f, %.f, %.f\n", 0.f, 5.f, -1.f, -10.f, 100.f, -1862.f, (float)INT_MIN, (float)INT_MAX);
+	printf("\n");
+
+	printf("%+.0f, %+.0f, %+.0f, %+.0f, %+.0f, %+.0f, %+.0f, %+.0f\n", 0.f, 5.f, -1.f, -10.f, 100.f, -1862.f, (float)INT_MIN, (float)INT_MAX);
+	ft_printf("%+.0f, %+.0f, %+.0f, %+.0f, %+.0f, %+.0f, %+.0f, %+.0f\n", 0.f, 5.f, -1.f, -10.f, 100.f, -1862.f, (float)INT_MIN, (float)INT_MAX);
+	printf("\n");
+
+	printf("%.f, %.f, %.f, %.f, %.f, %.f, %.f, %.f\n", 0.f, 5.f, -1.f, -10.f, 100.f, -1862.f, (float)INT_MIN, (float)INT_MAX);
+	ft_printf("%.f, %.f, %.f, %.f, %.f, %.f, %.f, %.f\n", 0.f, 5.f, -1.f, -10.f, 100.f, -1862.f, (float)INT_MIN, (float)INT_MAX);
+	printf("\n");
+
+	printf("% .f, % .f, % .f, % .f, % .f, % .f, % .f, % .f\n", 0.f, 5.f, -1.f, -10.f, 100.f, -1862.f, (float)INT_MIN, (float)INT_MAX);
+	ft_printf("% .f, % .f, % .f, % .f, % .f, % .f, % .f, % .f\n", 0.f, 5.f, -1.f, -10.f, 100.f, -1862.f, (float)INT_MIN, (float)INT_MAX);
+	printf("\n");
+
+	printf("% .2f\n", 0.f);
+	ft_printf("% .2f\n", 0.f);
+	printf("\n");
+
+	printf("%0+5f, %0+5f, %0+5f, %0+5f, %0+5f, %0+5f, %0+5f, %0+5f\n", 0.f, 5.f, -1.f, -10.f, 100.f, -1862.f, (float)INT_MIN, (float)INT_MAX);
+	ft_printf("%0+5f, %0+5f, %0+5f, %0+5f, %0+5f, %0+5f, %0+5f, %0+5f\n", 0.f, 5.f, -1.f, -10.f, 100.f, -1862.f, (float)INT_MIN, (float)INT_MAX);
+	printf("\n");
+
+	printf("%+052.18f\n", 0.f);
+	ft_printf("%+052.18f\n", 0.f);
+	printf("\n");
+
+	printf("% 052.18f\n", 0.f);
+	ft_printf("% 052.18f\n", 0.f);
+	printf("\n");
+
+	printf("%0+5.f, %0+5.f, %0+5.f, %0+5.f, %0+5.f, %0+5.f, %0+5.f, %0+5.f\n", 0.f, 5.f, -1.f, -10.f, 100.f, -1862.f, (float)INT_MIN, (float)INT_MAX);
+	ft_printf("%0+5.f, %0+5.f, %0+5.f, %0+5.f, %0+5.f, %0+5.f, %0+5.f, %0+5.f\n", 0.f, 5.f, -1.f, -10.f, 100.f, -1862.f, (float)INT_MIN, (float)INT_MAX);
+	printf("\n");
+
+	printf("%0+5.f\n", -1.f);
+	ft_printf("%0+5.f\n", -1.f);
 	printf("\n");
 
 	printf("len: %d\n", printf("%.4s\n", "hello"));
