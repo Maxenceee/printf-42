@@ -5,3 +5,4 @@
 tests/*.dSYM
 out
 .nfs*
+*/.nfs*
