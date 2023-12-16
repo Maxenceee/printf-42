@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:26:50 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/16 02:42:57 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/16 13:45:38 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 static void	ft_print_hex_prefix(char *hexa, int lower,
 	int *count, t_flags *flags)
 {
+	(void)hexa;
 	if (flags->hex == 1)
 	{
 		if (lower == 1)
