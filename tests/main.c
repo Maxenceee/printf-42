@@ -410,22 +410,6 @@ int main(void)
 	ft_printf(" %-1p %-2p \n", 0, 0);
 	printf("\n");
 
-	printf("%5%\n");
-	ft_printf("%5%\n");
-	printf("\n");
-	printf("%-5%\n");
-	ft_printf("%-5%\n");
-	printf("\n");
-	printf("%-05%\n");
-	ft_printf("%-05%\n");
-	printf("\n");
-	printf("percent 2 %12%\n");
-	ft_printf("percent 2 %12%\n");
-	printf("\n");
-	printf("percent 3 %-12%\n");
-	ft_printf("percent 3 %-12%\n");
-	printf("\n");
-
 	printf("%p\n", NULL);
 	ft_printf("%p\n", NULL);
 	printf("\n");
@@ -440,6 +424,22 @@ int main(void)
 	printf("\n");
 	printf("%-15p\n", NULL);
 	ft_printf("%-15p\n", NULL);
+	printf("\n");
+
+	printf("%5%\n");
+	ft_printf("%5%\n");
+	printf("\n");
+	printf("%-5%\n");
+	ft_printf("%-5%\n");
+	printf("\n");
+	printf("%-05%\n");
+	ft_printf("%-05%\n");
+	printf("\n");
+	printf("percent 2 %12%\n");
+	ft_printf("percent 2 %12%\n");
+	printf("\n");
+	printf("percent 3 %-12%\n");
+	ft_printf("percent 3 %-12%\n");
 	printf("\n");
 
 	printf("len %d\n", printf("\001\002\007\v\010\f\r\n"));
