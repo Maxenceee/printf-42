@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:26:50 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/16 01:18:53 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/16 02:42:57 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ static void	ft_print_hex_prefix(char *hexa, int lower,
 			ft_putstrprec("0X", 2, count);
 		flags->width -= 2;
 		flags->hex = 0;
-	}	
+	}
 }
 
 static void	ft_print_in_hex_spaces(char *hexa, int lower,
