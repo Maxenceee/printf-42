@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 20:07:51 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 21:16:21 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/16 01:30:58 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,11 @@ void	ft_put_str(char *str, int *count)
 	size_t	c;
 
 	c = ft_strlen(str);
-	write(STDOUT_FILENO, str, c);
+	if (write(STDOUT_FILENO, str, c) == -1)
+	{
+		(*count) = -1;
+		return ;
+	}
 	(*count) += c;
 }
 

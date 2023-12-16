@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 20:17:43 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/16 00:51:03 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/16 00:55:26 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,12 +59,12 @@ static void	ft_print_int_flags(t_flags *flags, long int *li, int *count)
 		flags->zero = 1;
 		flags->width--;
 	}
-	else if (*li >= 0 && flags->plus == 1 && flags->zero == 1)
+	else if (*li >= 0 && flags->plus == 1 && flags->zero == 1 && flags->dot == -1)
 	{
 		ft_putstrprec("+", 1, count);
 		flags->plus = 0;
 	}
-	else if (*li >= 0 && flags->blank == 1 && flags->zero == 1)
+	else if (*li >= 0 && flags->blank == 1 && flags->zero == 1 && flags->dot == -1)
 	{
 		ft_putstrprec(" ", 1, count);
 		flags->blank = 0;

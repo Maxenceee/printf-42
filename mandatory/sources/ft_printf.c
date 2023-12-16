@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:33:24 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/15 21:17:33 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/16 01:28:57 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,8 @@ void	print_type(const char *fmt, va_list *argp, int *count)
 		}
 		i++;
 		ft_switch_types(fmt + i, argp, count);
+		if (*count == -1)
+			return ;
 		i++;
 	}
 }
