@@ -6,7 +6,7 @@
 /*   By: mgama <mgama@student.42lyon.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 14:21:31 by mgama             #+#    #+#             */
-/*   Updated: 2023/12/16 01:36:41 by mgama            ###   ########.fr       */
+/*   Updated: 2023/12/22 12:12:30 by mgama            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_putchar(char c, int *count)
 {
-	if (write(1, &c, 1) == -1)
+	if (write(STDOUT_FILENO, &c, 1) == -1)
 	{
 		(*count) = -1;
 		return ;
